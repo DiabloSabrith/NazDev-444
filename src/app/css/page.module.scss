@@ -4,13 +4,18 @@
     height: 900px;
     background-color:transparent;
   }
-  
+.img{
+  border-radius: 20px;
+}
   .header{
     width: 100%;
     height: 120px; 
     display: flex;
     justify-content: space-between;
-  }
+  }.a:hover{
+     color: blueviolet;
+     transition: all 0.3s ease-in;
+   }
   .ul{
     margin-right: 100px;
     display: flex;
@@ -69,20 +74,40 @@
   .item:hover{
     background-color: rgb(138, 43, 226);
     transition: all 0.3s ease-in-out;
+    border:blueviolet;
     transform:scale(1.05);
-    background: linear-gradient(to right, blueviolet, #c70cc7)
+    animation: backColorAnim linear 3s infinite
   }
   .main_TemItems:has(.item:hover) .item:not(:hover) {
     filter: blur(4px);
   }
+  
+  
   .item span{
     position: absolute;
     right: 20px;
     bottom: 20px;
     color: #00e600;
+    
   }
+  @keyframes backColorAnim{
+    0%{
+     background-color: blueviolet;
+    }
+    20%{
+      background-color: #9f79ee;
+    }
+    40%{
+      background-color:#bf00ff ;
+    }
+    50%{
+      background-color: #8a2be2 ;
+    }
+    70%{
+      background-color:#9f79ee ;
+    }
+    100%{
+      background-color: blueviolet;
+    }
 
-  .a:hover{
-    color: blueviolet;
-    transition: all 0.3s ease-in;
   }

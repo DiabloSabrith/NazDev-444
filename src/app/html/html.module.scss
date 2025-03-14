@@ -28,6 +28,13 @@
   letter-spacing: 2px;
   font-weight:500;
 }
+.a:hover{
+  color: blueviolet;
+  transition: all 0.3s ease-in;
+}
+.img{
+  border-radius: 20px;
+}
 .a{
   font-size: 22px;
 }

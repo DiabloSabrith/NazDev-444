@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./page.module.css"
+import styles from "./page.module.scss"
 import Image from "next/image"
 export  default function JsPage () {
   return (
@@ -9,7 +9,7 @@ export  default function JsPage () {
           <h1 className={styles.title}>CSS</h1>
               <ul className={styles.ul}>
                   
-               <li className={styles.li}><a className ={styles.a} href="/html">Java script</a></li>
+               <li className={styles.li}><a className ={styles.a} href="/js">Java script</a></li>
                <li className={styles.li}><a className ={styles.a} href="/html">HTML</a></li>
                <li className={styles.li}><a className ={styles.a} href="/react">React</a></li>
              </ul>
@@ -20,83 +20,91 @@ export  default function JsPage () {
     <div className={styles.main_TemItems}>
        <div className={styles.item}>
              <Image
-               src="/img/logo.jpg"
-               width={40}
-               height={40}
+                 className={styles.img}
+               src="/img/css.jpg"
+               width={50}
+               height={50}
                alt="Loading..."
              />
-             <h3 className={styles.h3}>Типы данных</h3>
+             <h3 className={styles.h3}>Селекторы</h3>
              <p>Lorem6  </p>
        </div>
        <div className={styles.item}>
           <Image
-           src="/img/logo.jpg"
-           width={40}
-           height={40}
+              className={styles.img}
+           src="/img/css.jpg"
+           width={50}
+           height={50}
            alt="Loading..."
          />
-         <h3 className={styles.h3}>Циклы while и for</h3>
+         <h3 className={styles.h3}>Позиционирование</h3>
          <p>Lorem6  </p>
         </div>
 
         <div className={styles.item}>
     <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+        className={styles.img}
+     src="/img/css.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Работа с изображениями</h3>
    <p>Lorem6  </p>
   </div>
   <div className={styles.item}>
     <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+        className={styles.img}
+     src="/img/css.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Основы адаптивного дизайна</h3>
    <p>Lorem6  </p>
   </div>
   <div className={styles.item}>
     <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+        className={styles.img}
+     src="/img/css.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Flexbox</h3>
    <p>Lorem6  </p>
   </div>
   <div className={styles.item}>
     <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+        className={styles.img}
+     src="/img/css.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Трансформации и переходы</h3>
    <p>Lorem6  </p>
   </div>
        <div className={styles.item}>
           <Image
-            src="/img/logo.jpg"
-            width={40}
-            height={40}
+              className={styles.img}
+            src="/img/css.jpg"
+            width={50}
+            height={50}
             alt="Loading..."
           />
-          <h3 className={styles.h3}>Функции</h3>
+          <h3 className={styles.h3}>Анимации</h3>
           <p>Lorem6  </p>
        </div>
        <div className={styles.item}>
        <Image
-           src="/img/logo.jpg"
-           width={40}
-           height={40}
+           className={styles.img}
+           src="/img/css.jpg"
+           width={50}
+           height={50}
            alt="Loading..."
          />
-         <h3 className={styles.h3}>Работа с DOM</h3>
+         <h3 className={styles.h3}>Препроцессоры</h3>
          <p>Lorem6</p>
         
        </div>

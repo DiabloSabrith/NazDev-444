@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./html.module.css";
+import styles from "./html.module.scss";
 import Image from "next/image"
 export  default function JsPage () {
   return (
@@ -19,9 +19,10 @@ export  default function JsPage () {
     <div className={styles.main_TemItems}>
        <div className={styles.item}>
              <Image
-               src="/img/logo.jpg"
-               width={40}
-               height={40}
+                 className={styles.img}
+               src="/img/html.jpg"
+               width={50}
+               height={50}
                alt="Loading..."
              />
              <h3 className={styles.h3}>Типы данных</h3>
@@ -29,9 +30,10 @@ export  default function JsPage () {
        </div>
        <div className={styles.item}>
           <Image
-           src="/img/logo.jpg"
-           width={40}
-           height={40}
+              className={styles.img}
+           src="/img/html.jpg"
+           width={50}
+           height={50}
            alt="Loading..."
          />
          <h3 className={styles.h3}>Циклы while и for</h3>
@@ -40,9 +42,10 @@ export  default function JsPage () {
 
         <div className={styles.item}>
     <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+        className={styles.img}
+     src="/img/html.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
    <h3 className={styles.h3}>Циклы while и for</h3>
@@ -50,9 +53,10 @@ export  default function JsPage () {
   </div>
   <div className={styles.item}>
     <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+        className={styles.img}
+     src="/img/html.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
    <h3 className={styles.h3}>Циклы while и for</h3>
@@ -60,9 +64,10 @@ export  default function JsPage () {
   </div>
   <div className={styles.item}>
     <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+        className={styles.img}
+     src="/img/html.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
    <h3 className={styles.h3}>Циклы while и for</h3>
@@ -70,9 +75,10 @@ export  default function JsPage () {
   </div>
   <div className={styles.item}>
     <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+        className={styles.img}
+     src="/img/html.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
    <h3 className={styles.h3}>Циклы while и for</h3>
@@ -80,9 +86,10 @@ export  default function JsPage () {
   </div>
        <div className={styles.item}>
           <Image
-            src="/img/logo.jpg"
-            width={40}
-            height={40}
+              className={styles.img}
+            src="/img/html.jpg"
+            width={50}
+            height={50}
             alt="Loading..."
           />
           <h3 className={styles.h3}>Функции</h3>
@@ -90,9 +97,10 @@ export  default function JsPage () {
        </div>
        <div className={styles.item}>
        <Image
-           src="/img/logo.jpg"
-           width={40}
-           height={40}
+           className={styles.img}
+           src="/img/html.jpg"
+           width={50}
+           height={50}
            alt="Loading..."
          />
          <h3 className={styles.h3}>Работа с DOM</h3>

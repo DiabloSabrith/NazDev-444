@@ -1,6 +1,7 @@
 import React from 'react'
-import styles from "./js.module.css";
+import styles from "./js.module.scss";
 import Image from 'next/image'
+import Link  from "next/link"
 
 export  default function JsPage () {
   return (
@@ -22,97 +23,107 @@ export  default function JsPage () {
 
 
          <div className={styles.item}>
-               <Image
-                 src="/img/logo.jpg"
+               <Image className={styles.img}
+                 src="/img/js.jpg"
                  width={50}
                  height={50}
                  alt="Loading..."
                />
+            
                <h3 className={styles.h3}>Типы данных</h3>
-               <p>Lorem6  </p>
-               <span>Новичок</span>
+               <Link className={styles.a} href="/js/date">Начать </Link>
+               <span className={styles.spanLow}>Новичок</span>
 
          </div>
          <div className={styles.item}>
-            <Image
-             src="/img/logo.jpg"
-             width={40}
-             height={40}
+            <Image className={styles.img}
+                   src="/img/js.jpg"
+             width={50}
+             height={50}
              alt="Loading..."
            />
            <h3  className={styles.h3}>Циклы while и for</h3>
-           <p>Lorem6  </p>
+             <Link className={styles.a} href="/js/cycle">Начать </Link>
+             <span className={styles.spanLow}>Новичок</span>
           </div>
 
          <div className={styles.item}>
-            <Image
-              src="/img/logo.jpg"
-              width={40}
-              height={40}
+            <Image className={styles.img} src="/img/js.jpg"
+              width={50}
+              height={50}
               alt="Loading..."
             />
             <h3  className={styles.h3}>Функции</h3>
-            <p>Lorem6  </p>
+             <Link className={styles.a} href="/js/function">Начать </Link>
+             <span className={styles.spanMedium}>Продвинутый</span>
          </div>
 
          <div className={styles.item}>
-         <Image
-             src="/img/logo.jpg"
-             width={40}
-             height={40}
+         <Image className={styles.img}
+                src="/img/js.jpg"
+             width={50}
+             height={50}
              alt="Loading..."
            />
            <h3  className={styles.h3}>Работа с DOM</h3>
-           <p>Lorem6</p>
+             <Link className={styles.a} href="/js/dom">Начать </Link>
+             <span className={styles.spanMedium}>Продвинутый</span>
           
          </div>
          <div className={styles.item}>
- <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+ <Image  className={styles.img}
+         src="/img/js.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
    <h3  className={styles.h3}>Классы</h3>
-   <p>Lorem6</p>
-  
+   <p className={styles.temporarily}>В разработке</p>
+             <span className={styles.spanMedium}>Продвинутый</span>
+
  </div>
  <div className={styles.item}>
- <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+ <Image className={styles.img}
+        src="/img/js.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
    <h3  className={styles.h3}>Прототипы, наследование</h3>
-   <p>Lorem6</p>
-  
+   <p className={styles.temporarily}>В разработке</p>
+     <span className={styles.spanMedium}>Продвинутый</span>
+
+
  </div> <div className={styles.item}>
- <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+ <Image className={styles.img}
+        src="/img/js.jpg"
+     width={50}
+     height={50}
      alt="Loading..."
    />
    <h3  className={styles.h3}>Промисы, async/await</h3>
-   <p>Lorem6</p>
+   <p className={styles.temporarily}>В разработке</p>
+          <span className={styles.spanHard}>Эксперт</span>
   
  </div>
  <div className={styles.item}>
- <Image
-     src="/img/logo.jpg"
-     width={40}
-     height={40}
+ <Image className={styles.img}
+        src="/img/js.jpg"
+
+     width={50}
+     height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Свойства объекта, их конфигурация</h3>
-   <p>Lorem6</p>
+   <h3  className={styles.h3}>Свойства объектов</h3>
+   <p className={styles.temporarily}>В разработке</p>
+     <span className={styles.spanHard}>Эксперт</span>
   
  </div>
 
       </div>
           
         </article>
+        <p className={styles.footertitle}>NazDev corporation</p>
     </div>
   )
 }
