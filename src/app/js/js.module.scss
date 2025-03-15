@@ -104,7 +104,7 @@
     padding:10px 20px;
   }
   .item:hover{
-    background-color: rgb(138, 43, 226);
+    background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
     transition: all 0.3s ease-in-out;
     border:blueviolet;
     transform: rotate(3deg);
@@ -118,6 +118,7 @@
   letter-spacing: 3px;
   font-size: 20px;
 }
+
 
   
 

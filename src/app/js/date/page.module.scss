@@ -23,11 +23,20 @@ $br:20px;
   padding-top: 20px;
   font-weight: 500;
 }
+.backBtn{
+  position: absolute;
+ margin-left:2%;
+  width: 120px;
+  padding: 5px 15px;
+  background-color: #df4747;
+  border: none;
+  border-radius: 15px;
+}
 
 .contentOne{
   width:90%;
   height:45%;
-  background-image: linear-gradient( 45deg,#01b8c4, blueviolet);
+  background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
   border-radius: 20px;
   margin-top:20px;
   display: flex;
@@ -35,6 +44,23 @@ $br:20px;
   flex-direction: column;
   transition:0.6s ease;
 
+}
+.textBlock{
+  position: relative;
+  text-align: center;
+  width: 90%;
+  height: 85%;
+  background-color: rgba(29, 22, 22, 0.58);
+  border-radius: $br;
+  .moreBtn{
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+  }
 }
 .contentTwo{
   width:90%;
@@ -74,23 +100,7 @@ align-items: center;
   border:blueviolet;
 
 }
-.three{
-  margin-top: 15px;
-  background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
-  text-align: center;
-  width: 100%;
-  height: 350px;
-  border-radius: $br;
-}
-.second{
-  margin-top: 15px;
-   text-align: center;
-  width: 100%;
-  height: 350px;
-  border-radius: $br;
-  background-color:#da0a65;
-  background-image:linear-gradient( 45deg ,#db51d9,#0289cf,);
-}
+
 .content{
   width: 100%;
   height:90%;
@@ -102,14 +112,14 @@ align-items: center;
 }
 .data_h2{
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
   font-weight: 600;
   font-size: 25px;
 }
 .data_p{
-  text-align: center;
-  padding:20px 40px;
-  line-height: 30px;
+  text-align: justify;
+  padding:5px 40px;
+  line-height: 25px;
   font-size: 18px;
 }
 .first{
@@ -118,6 +128,10 @@ background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
   height: 350px;
   border-radius: $br;
  background-color: rgba(138,43,226,1);
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  margin-top:15px;
 
 }
 .first:hover{
@@ -162,6 +176,7 @@ background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
 
 }
 .p{
+
   line-height:40px;
   font-size: 22px;
 }

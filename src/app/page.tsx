@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+
+import styles from "./page.module.scss";
 import Link from 'next/link'
 
 export default function Home() {
@@ -21,18 +21,36 @@ export default function Home() {
 
         <div className={styles.mainBlock}>
            <h1>NazDev <br/>Стань лучшим  <br/><span>разработчиком</span></h1>
-           <h1 className={styles.fronth1}>Frontend</h1>
+            <div className={styles.ProjetcsBlock}>
+                <h1 className={styles.frontH1}>Frontend</h1>
+
+                <div className={styles.Projects}>
+                    <div className={styles.Project_item}>
+                        <p>NazDev</p>
+                    </div>
+                    <div className={styles.Project_item}>
+                        <p>NazDev <br/> Mobile</p>
+                    </div>
+                    <div className={styles.Project_item}>
+                        <p>NazDev <br/>Tem </p>
+                    </div>
+
+                </div>
+
+
+            </div>
         </div>
 
-        <footer className={styles.footer}>
-         <div className={styles.itemfooter}><p>Java script</p></div>
-         <div className={styles.itemfooter}><p>html</p></div>
-         <div className={styles.itemfooter}><p>css</p></div>
-         <div className={styles.itemfooter}><p>react</p></div>
+          <footer className={styles.footer}>
+
+         <div className={styles.itemFooter}><p>Java script</p></div>
+         <div className={styles.itemFooter_Down}><p>html</p></div>
+         <div className={styles.itemFooter}><p>css</p></div>
+         <div className={styles.itemFooter_Down}><p>react</p></div>
         </footer>
-        <p className={styles.footertitle}>NazDev corporation</p>
 
       </div>
+
     </div>
   );
 }

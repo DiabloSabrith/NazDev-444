@@ -3,7 +3,7 @@ import styles from "./page.module.scss";
 import Image from 'next/image'
 import Link  from "next/link"
 import 'animate.css';
-import Accordion from "@/components/accordion";
+import Accordion from "@/components/accordion/accordion";
 
 export  default function JsPage () {
     return (
