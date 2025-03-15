@@ -8,6 +8,7 @@ import IntTable from "@/components/IntaractivTable/IntTable";
 import Accordion from "@/components/accordion/accordion";
 
 export  default function JsPage () {
+    // @ts-ignore
     return(
         <div className={styles.container}>
             <div className={styles.wrapper}>
@@ -25,8 +26,7 @@ export  default function JsPage () {
                                         src="https://codepen.io/Diablo-Sabrith/embed/qEBppOw?default-tab=js%2Cresult"
                                         frameBorder="no"
                                         loading="lazy"
-                                        allowTransparency="true"
-                                        allowFullScreen="true"
+
                                 >
                                     See the Pen{' '}
                                     <a href="https://codepen.io/Diablo-Sabrith/pen/qEBppOw">
