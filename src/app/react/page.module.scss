@@ -43,7 +43,7 @@
     padding:30px 0px ;
     font-weight: 500;
     font-size: 30px;
-    color:blueviolet
+    color:#fff
   }
   .main_TemItems{
     width: 800px;
@@ -62,7 +62,58 @@
     margin-left: 40px;
     margin-bottom: 30px;
     position: relative;
+    .overlay{
+      position: absolute; /* Абсолютное позиционирование относительно родителя */
+      top: 0;             /* Привязываем к верху */
+      left: 0;        /* Помещаем слева от родителя, учитывая ширину */
+      width: 60%;       /* Ширина overlay (должна совпадать с шириной item) */
+      height: 100%;       /* Занимает всю высоту item */
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;           /* Изначально делаем невидимым */
+      transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
+      z-index: 1; /* Гарантирует, что оверлей будет выше item */
+      border-radius: 20px;
+      li{
+        list-style-type: none;
+        font-size: 20px;
+        line-height: 40px;
+        color: #ffff;
+      }
+    }
+    .overlay_right{
+      position: absolute; /* Абсолютное позиционирование относительно родителя */
+      top: 0;             /* Привязываем к верху */
+      left: 0;        /* Помещаем слева от родителя, учитывая ширину */
+      width: 60%;       /* Ширина overlay (должна совпадать с шириной item) */
+      height: 100%;       /* Занимает всю высоту item */
+      background-color: rgba(0, 0, 0, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;           /* Изначально делаем невидимым */
+      transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
+      z-index: 1; /* Гарантирует, что оверлей будет выше item */
+      border-radius: 20px;
+      li{
+        list-style-type: none;
+        font-size: 20px;
+        line-height: 40px;
+        color: #ffff;
+      }
+    }
   }
+.item:hover .overlay{
+  left: -62%;             /* При наведении выплывает к родителю */
+  opacity: 1;
+}
+.item:hover .overlay_right{
+  left: 102%;             /* При наведении выплывает к родителю */
+  opacity: 1;
+}
   .h3{
     font-weight: 500;
     font-size: 25px;
@@ -89,3 +140,8 @@
     color: blueviolet;
     transition: all 0.3s ease-in;
   }
+.footerTitle{
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 25px;
+}

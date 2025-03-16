@@ -28,6 +28,24 @@ export  default function JsPage () {
              />
              <h3 className={styles.h3}>Селекторы</h3>
              <p>Lorem6  </p>
+           <div className={styles.overlay_right}>
+               <ul>
+                   <li>Примеры</li>
+                   <li>Видеоролик</li>
+                   <li>Тест</li>
+
+               </ul>
+           </div>
+           <div className={styles.overlay}>
+               <ul>
+                   <li>Введение в CSS</li>
+                   <li>Селекторы элементов</li>
+                   <li>Селекторы классов</li>
+                   <li>Псевдоклассы</li>
+                   <li>Псевдоэлементы</li>
+               </ul>
+           </div>
+
        </div>
        <div className={styles.item}>
           <Image
@@ -39,6 +57,23 @@ export  default function JsPage () {
          />
          <h3 className={styles.h3}>Позиционирование</h3>
          <p>Lorem6  </p>
+           <div className={styles.overlay_right}>
+               <ul>
+                   <li>Примеры</li>
+                   <li>Видеоролик</li>
+                   <li>Тест</li>
+
+               </ul>
+           </div>
+           <div className={styles.overlay}>
+               <ul>
+                   <li>Position-fixed</li>
+                   <li>Position-static</li>
+                   <li>Position-absolute</li>
+                   <li>z-index</li>
+
+               </ul>
+           </div>
         </div>
 
         <div className={styles.item}>
@@ -49,8 +84,24 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Работа с изображениями</h3>
+   <h3 className={styles.h3}>Работа <br/>с изображениями</h3>
    <p>Lorem6  </p>
+            <div className={styles.overlay_right}>
+                <ul>
+                    <li>Примеры</li>
+                    <li>Видеоролик</li>
+                    <li>Тест</li>
+
+                </ul>
+            </div>
+            <div className={styles.overlay}>
+                <ul>
+                    <li>Backround-image</li>
+                    <li>Object-fit</li>
+                    <li>Picture</li>
+
+                </ul>
+            </div>
   </div>
   <div className={styles.item}>
     <Image
@@ -61,6 +112,22 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Основы адаптивного дизайна</h3>
+      <div className={styles.overlay_right}>
+          <ul>
+              <li>Примеры</li>
+              <li>Видеоролик</li>
+              <li>Тест</li>
+
+          </ul>
+      </div>
+      <div className={styles.overlay}>
+          <ul>
+              <li>Медиа-запросы </li>
+              <li>Mobile-First </li>
+              <li>Desktop-First </li>
+              <li>Типографика</li>
+          </ul>
+      </div>
    <p>Lorem6  </p>
   </div>
   <div className={styles.item}>
@@ -73,6 +140,22 @@ export  default function JsPage () {
    />
    <h3 className={styles.h3}>Flexbox</h3>
    <p>Lorem6  </p>
+      <div className={styles.overlay_right}>
+          <ul>
+              <li>Примеры</li>
+              <li>Видеоролик</li>
+              <li>Тест</li>
+
+          </ul>
+      </div>
+      <div className={styles.overlay}>
+          <ul>
+              <li>display-flex</li>
+              <li>gap</li>
+              <li>display-grid</li>
+              <li>align-content</li>
+          </ul>
+      </div>
   </div>
   <div className={styles.item}>
     <Image
@@ -82,8 +165,26 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Трансформации и переходы</h3>
+   <h3 className={styles.h3}>Трансформации <br/>и переходы</h3>
    <p>Lorem6  </p>
+      <div className={styles.overlay_right}>
+          <ul>
+              <li>Примеры</li>
+              <li>Видеоролик</li>
+              <li>Тест</li>
+
+          </ul>
+      </div>
+      <div className={styles.overlay}>
+          <ul>
+              <li>Transform</li>
+              <li>Scale</li>
+              <li>Rotate</li>
+              <li>Skew</li>
+              <li>Matrix</li>
+          </ul>
+      </div>
+
   </div>
        <div className={styles.item}>
           <Image
@@ -95,6 +196,23 @@ export  default function JsPage () {
           />
           <h3 className={styles.h3}>Анимации</h3>
           <p>Lorem6  </p>
+           <div className={styles.overlay_right}>
+               <ul>
+                   <li>Примеры</li>
+                   <li>Видеоролик</li>
+                   <li>Тест</li>
+
+               </ul>
+           </div>
+           <div className={styles.overlay}>
+               <ul>
+                   <li>@keyframes</li>
+                   <li>animation-name</li>
+                   <li>animation-play-state</li>
+                   <li>animation-delay</li>
+
+               </ul>
+           </div>
        </div>
        <div className={styles.item}>
        <Image
@@ -106,11 +224,29 @@ export  default function JsPage () {
          />
          <h3 className={styles.h3}>Препроцессоры</h3>
          <p>Lorem6</p>
+           <div className={styles.overlay_right}>
+               <ul>
+                   <li>Примеры</li>
+                   <li>Видеоролик</li>
+                   <li>Тест</li>
+
+               </ul>
+           </div>
+           <div className={styles.overlay}>
+               <ul>
+                   <li>Переменные</li>
+                   <li>Функции</li>
+                   <li>Наследование</li>
+                   <li>Миксины</li>
+                   <li>Sass,Less</li>
+               </ul>
+           </div>
         
        </div>
     </div>
         
       </article>
+        <p className={styles.footerTitle}>NazDev corporation</p>
   </div>
   )
 }

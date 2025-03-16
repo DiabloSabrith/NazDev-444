@@ -39,11 +39,6 @@
     background: var(--button-secondary-hover);
     border-color: transparent;
   }
-
-  .footer a:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
 }
 .img{
   border-radius: 20px;
@@ -64,7 +59,6 @@
   width: 100%;
   height: 100%;
   font-size: 20px;
-  text-transform: uppercase;
   justify-content: center;
 }
 .footer{
@@ -77,6 +71,8 @@
   gap:50px;
 }
 .frontH1{
+  text-transform: uppercase;
+  position: relative ;
   text-align: center;
   color: blueviolet;
   font-size: 90px;
@@ -106,11 +102,13 @@ letter-spacing: 2px;
    border-radius: 20px;
    animation: PosAnimDown 2.5s infinite ;
    p{
+     text-transform: uppercase;
      text-align: center;
      padding-top: 120px;
    }
  }
 .itemFooter p{
+  text-transform: uppercase;
   text-align: center;
   padding-top: 120px;
 }
@@ -130,7 +128,7 @@ letter-spacing: 2px;
   .Project_item{
     width: 25%;
     height: 170px;
-    background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
+    background-image:linear-gradient(45deg ,#0289cf,#db51d9);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -156,12 +154,7 @@ letter-spacing: 2px;
   background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
   transform: scale(1.07);
 }
-.footer h2{
-  text-align: center;
-  font-weight: 500;
-  padding-top: 80px;
-  
-}
+
 .mainBlock{
   display: flex;
   justify-content: space-around;
@@ -170,6 +163,7 @@ letter-spacing: 2px;
   border-radius: 20px;
   box-shadow: 1px 1px 1px blueviolet;
 }.mainBlock h1{
+   text-transform: uppercase;
   padding-top: 100px;
   font-weight: 500;
   line-height: 55px;
@@ -189,10 +183,26 @@ letter-spacing: 2px;
   padding-left: 20px;
 }
 .h1{
+  position: relative;
   padding: 50px 50px ;
   font-size: 40px;
   letter-spacing: 2px;
   font-weight:500;
+}
+.h1::before{
+  content: 'BETA';
+  position: absolute;
+  width: 40%;
+  height: 35px;
+  top: 40px;
+  color: yellow;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 72%;
+  font-weight: bold;
+  transform: rotate(-13deg);
 }
 .a{
   font-size: 22px;

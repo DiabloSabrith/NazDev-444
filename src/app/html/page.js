@@ -25,8 +25,24 @@ export  default function JsPage () {
                height={50}
                alt="Loading..."
              />
-             <h3 className={styles.h3}>Типы данных</h3>
+             <h3 className={styles.h3}>Введение в HTML</h3>
              <p>Lorem6  </p>
+           <div className={styles.overlay_right}>
+               <ul>
+                   <li>Примеры</li>
+                   <li>Видеоролик</li>
+                   <li>Тест</li>
+
+               </ul>
+           </div>
+           <div className={styles.overlay}>
+               <ul>
+                   <li>Что такое HTML</li>
+                   <li>Структура HTML-документа</li>
+                   <li>Теги </li>
+                   <li>Атрибуты </li>
+               </ul>
+           </div>
        </div>
        <div className={styles.item}>
           <Image
@@ -36,8 +52,23 @@ export  default function JsPage () {
            height={50}
            alt="Loading..."
          />
-         <h3 className={styles.h3}>Циклы while и for</h3>
+         <h3 className={styles.h3}>Ссылки</h3>
          <p>Lorem6  </p>
+           <div className={styles.overlay_right}>
+               <ul>
+                   <li>Примеры</li>
+                   <li>Видеоролик</li>
+                   <li>Тест</li>
+
+               </ul>
+           </div>
+           <div className={styles.overlay}>
+               <ul>
+                   <li>Для чего нужно</li>
+                   <li>Внешние ссылки</li>
+                   <li>Якорные ссылки</li>
+               </ul>
+           </div>
         </div>
 
         <div className={styles.item}>
@@ -48,8 +79,25 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Семантическая <br/> разметка </h3>
    <p>Lorem6  </p>
+            <div className={styles.overlay_right}>
+                <ul>
+                    <li>Примеры</li>
+                    <li>Видеоролик</li>
+                    <li>Тест</li>
+
+                </ul>
+            </div>
+            <div className={styles.overlay}>
+                <ul>
+                    <li>Header</li>
+                    <li>Main</li>
+                    <li>Article</li>
+                    <li>Section</li>
+                    <li>Footer</li>
+                </ul>
+            </div>
   </div>
   <div className={styles.item}>
     <Image
@@ -59,8 +107,24 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Медиа </h3>
    <p>Lorem6  </p>
+      <div className={styles.overlay_right}>
+          <ul>
+              <li>Примеры</li>
+              <li>Видеоролик</li>
+              <li>Тест</li>
+
+          </ul>
+      </div>
+      <div className={styles.overlay}>
+          <ul>
+              <li>Встраивание аудио</li>
+              <li>Встраивание видео</li>
+              <li>Iframe</li>
+              <li>Track</li>
+          </ul>
+      </div>
   </div>
   <div className={styles.item}>
     <Image
@@ -70,8 +134,24 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Метаданные</h3>
    <p>Lorem6  </p>
+      <div className={styles.overlay_right}>
+          <ul>
+              <li>Примеры</li>
+              <li>Видеоролик</li>
+              <li>Тест</li>
+
+          </ul>
+      </div>
+      <div className={styles.overlay}>
+          <ul>
+              <li>Для чего нужны</li>
+              <li>Meta и Head</li>
+              <li>Link  и Title</li>
+              <li>Style</li>
+          </ul>
+      </div>
   </div>
   <div className={styles.item}>
     <Image
@@ -81,35 +161,30 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Формы</h3>
    <p>Lorem6  </p>
+      <div className={styles.overlay_right}>
+          <ul>
+              <li>Примеры</li>
+              <li>Видеоролик</li>
+              <li>Тест</li>
+
+          </ul>
+      </div>
+      <div className={styles.overlay}>
+          <ul>
+              <li>Тег Form</li>
+              <li>Управление формами</li>
+              <li>Атрибуты</li>
+          </ul>
+      </div>
   </div>
-       <div className={styles.item}>
-          <Image
-              className={styles.img}
-            src="/img/html.jpg"
-            width={50}
-            height={50}
-            alt="Loading..."
-          />
-          <h3 className={styles.h3}>Функции</h3>
-          <p>Lorem6  </p>
-       </div>
-       <div className={styles.item}>
-       <Image
-           className={styles.img}
-           src="/img/html.jpg"
-           width={50}
-           height={50}
-           alt="Loading..."
-         />
-         <h3 className={styles.h3}>Работа с DOM</h3>
-         <p>Lorem6</p>
-        
-       </div>
+
+
     </div>
         
       </article>
+        <p className={styles.footerTitle}>NazDev corporation</p>
   </div>
        
   

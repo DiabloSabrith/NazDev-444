@@ -26,8 +26,24 @@ export  default function JsPage () {
                height={50}
                alt="Loading..."
              />
-             <h3 className={styles.h3}>Типы данных</h3>
+             <h3 className={styles.h3}>Введение в React </h3>
              <p>Lorem6  </p>
+           <div className={styles.overlay_right}>
+               <ul>
+                   <li>Примеры</li>
+                   <li>Видеоролик</li>
+                   <li>Тест</li>
+
+               </ul>
+           </div>
+           <div className={styles.overlay}>
+               <ul>
+                   <li>Что такое React</li>
+                   <li>Преимущества React</li>
+                   <li>Установка  </li>
+                   <li>Настройка</li>
+               </ul>
+           </div>
        </div>
        <div className={styles.item}>
           <Image
@@ -37,8 +53,21 @@ export  default function JsPage () {
            height={50}
            alt="Loading..."
          />
-         <h3 className={styles.h3}>Циклы while и for</h3>
+         <h3 className={styles.h3}>Основы JSX </h3>
          <p>Lorem6  </p>
+           <div className={styles.overlay_right}>
+               <ul>
+                   <li>Примеры</li>
+                   <li>Видеоролик</li>
+
+               </ul>
+           </div>
+           <div className={styles.overlay}>
+               <ul>
+                   <li>Что такое JSX</li>
+                   <li>camelCase</li>
+               </ul>
+           </div>
         </div>
         <div className={styles.item}>
     <Image
@@ -48,8 +77,22 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>Компоненты</h3>
    <p>Lorem6  </p>
+            <div className={styles.overlay_right}>
+                <ul>
+                    <li>Примеры</li>
+                    <li>Видеоролик</li>
+
+                </ul>
+            </div>
+            <div className={styles.overlay}>
+                <ul>
+                    <li>Компонент</li>
+                    <li>Типы компонентов</li>
+                    <li>Props </li>
+                </ul>
+            </div>
    </div>
    <div className={styles.item}>
     <Image
@@ -59,57 +102,80 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Циклы while и for</h3>
+   <h3 className={styles.h3}>State</h3>
    <p>Lorem6  </p>
-   </div>
-   <div className={styles.item}>
-    <Image
-        className={styles.img}
-     src="/img/react.jpg"
-     width={50}
-     height={50}
-     alt="Loading..."
-   />
-   <h3 className={styles.h3}>Циклы while и for</h3>
-   <p>Lorem6  </p>
-   </div>
-   <div className={styles.item}>
-    <Image
-        className={styles.img}
-     src="/img/react.jpg"
-     width={50}
-     height={50}
-     alt="Loading..."
-   />
-   <h3 className={styles.h3}>Циклы while и for</h3>
-   <p>Lorem6  </p>
-   </div>
-       <div className={styles.item}>
-          <Image
-              className={styles.img}
-            src="/img/react.jpg"
-            width={50}
-            height={50}
-            alt="Loading..."
-          />
-          <h3 className={styles.h3}>Функции</h3>
-          <p>Lorem6  </p>
+       <div className={styles.overlay_right}>
+           <ul>
+               <li>Примеры</li>
+               <li>Видеоролик</li>
+
+           </ul>
        </div>
-       <div className={styles.item}>
-       <Image
-           className={styles.img}
-           src="/img/react.jpg"
-           width={50}
-           height={50}
-           alt="Loading..."
-         />
-         <h3 className={styles.h3}>Работа с DOM</h3>
-         <p>Lorem6</p>
-        
+       <div className={styles.overlay}>
+           <ul>
+               <li>Что такое state</li>
+               <li>Хук useState</li>
+               <li>Props </li>
+           </ul>
        </div>
+   </div>
+   <div className={styles.item}>
+    <Image
+        className={styles.img}
+     src="/img/react.jpg"
+     width={50}
+     height={50}
+     alt="Loading..."
+   />
+   <h3 className={styles.h3}>Обработка событий</h3>
+   <p>Lorem6  </p>
+       <div className={styles.overlay_right}>
+           <ul>
+               <li>Примеры</li>
+               <li>Видеоролик</li>
+               <li>Тест</li>
+
+           </ul>
+       </div>
+       <div className={styles.overlay}>
+           <ul>
+               <li>onClick</li>
+               <li>onChange</li>
+               <li>onSubmit </li>
+           </ul>
+       </div>
+   </div>
+   <div className={styles.item}>
+    <Image
+        className={styles.img}
+     src="/img/react.jpg"
+     width={50}
+     height={50}
+     alt="Loading..."
+   />
+   <h3 className={styles.h3}>Routing</h3>
+   <p>Lorem6  </p>
+       <div className={styles.overlay_right}>
+           <ul>
+               <li>Примеры</li>
+               <li>Видеоролик</li>
+               <li>Тест</li>
+
+           </ul>
+       </div>
+       <div className={styles.overlay}>
+           <ul>
+               <li>Что такое роутинг</li>
+               <li>React Router </li>
+               <li>Link</li>
+           </ul>
+       </div>
+   </div>
+
     </div>
         
       </article>
+        <p className={styles.footerTitle}>NazDev corporation</p>
    </div>
   )
 }

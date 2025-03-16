@@ -1,0 +1,26 @@
+.overlay{
+  position: absolute; /* Абсолютное позиционирование относительно родителя */
+  top: 0;             /* Привязываем к верху */
+  left: 0;        /* Помещаем слева от родителя, учитывая ширину */
+  width: 70%;       /* Ширина overlay (должна совпадать с шириной item) */
+  height: 100%;       /* Занимает всю высоту item */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;           /* Изначально делаем невидимым */
+  transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
+  z-index: 1; /* Гарантирует, что оверлей будет выше item */
+  border-radius: 20px;
+  li{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 40px;
+    color: #ffff;
+  }
+}
+.item:hover.overlay{
+  left: -72%;             /* При наведении выплывает к родителю */
+  opacity: 1;
+}

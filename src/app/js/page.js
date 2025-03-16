@@ -33,7 +33,15 @@ export  default function JsPage () {
                <h3 className={styles.h3}>Типы данных</h3>
                <Link className={styles.a} href="/js/date">Начать </Link>
                <span className={styles.spanLow}>Новичок</span>
-
+               <div className={styles.overlay}>
+                   <ul>
+                       <li>Number</li>
+                       <li>BigInt</li>
+                       <li>String</li>
+                       <li>Undefined</li>
+                       <li>Boolean</li>
+                   </ul>
+               </div>
          </div>
          <div className={styles.item}>
             <Image className={styles.img}
@@ -45,6 +53,15 @@ export  default function JsPage () {
            <h3  className={styles.h3}>Циклы while и for</h3>
              <Link className={styles.a} href="/js/cycle">Начать </Link>
              <span className={styles.spanLow}>Новичок</span>
+             <div className={styles.overlay_right}>
+                 <ul>
+                     <li>Number</li>
+                     <li>BigInt</li>
+                     <li>String</li>
+                     <li>Undefined</li>
+                     <li>Boolean</li>
+                 </ul>
+             </div>
           </div>
 
          <div className={styles.item}>
@@ -56,6 +73,15 @@ export  default function JsPage () {
             <h3  className={styles.h3}>Функции</h3>
              <Link className={styles.a} href="/js/function">Начать </Link>
              <span className={styles.spanMedium}>Продвинутый</span>
+             <div className={styles.overlay}>
+                 <ul>
+                     <li>Number</li>
+                     <li>BigInt</li>
+                     <li>String</li>
+                     <li>Undefined</li>
+                     <li>Boolean</li>
+                 </ul>
+             </div>
          </div>
 
          <div className={styles.item}>
@@ -68,6 +94,15 @@ export  default function JsPage () {
            <h3  className={styles.h3}>Работа с DOM</h3>
              <Link className={styles.a} href="/js/dom">Начать </Link>
              <span className={styles.spanMedium}>Продвинутый</span>
+             <div className={styles.overlay_right}>
+                 <ul>
+                     <li>Number</li>
+                     <li>BigInt</li>
+                     <li>String</li>
+                     <li>Undefined</li>
+                     <li>Boolean</li>
+                 </ul>
+             </div>
           
          </div>
          <div className={styles.item}>
@@ -80,7 +115,15 @@ export  default function JsPage () {
    <h3  className={styles.h3}>Классы</h3>
    <p className={styles.temporarily}>В разработке</p>
              <span className={styles.spanMedium}>Продвинутый</span>
-
+             <div className={styles.overlay}>
+                 <ul>
+                     <li>Number</li>
+                     <li>BigInt</li>
+                     <li>String</li>
+                     <li>Undefined</li>
+                     <li>Boolean</li>
+                 </ul>
+             </div>
  </div>
  <div className={styles.item}>
  <Image className={styles.img}
@@ -93,8 +136,18 @@ export  default function JsPage () {
    <p className={styles.temporarily}>В разработке</p>
      <span className={styles.spanMedium}>Продвинутый</span>
 
+     <div className={styles.overlay_right}>
+         <ul>
+             <li>Number</li>
+             <li>BigInt</li>
+             <li>String</li>
+             <li>Undefined</li>
+             <li>Boolean</li>
+         </ul>
+     </div>
+ </div>
 
- </div> <div className={styles.item}>
+          <div className={styles.item}>
  <Image className={styles.img}
         src="/img/js.jpg"
      width={50}
@@ -104,6 +157,15 @@ export  default function JsPage () {
    <h3  className={styles.h3}>Промисы, async/await</h3>
    <p className={styles.temporarily}>В разработке</p>
           <span className={styles.spanHard}>Эксперт</span>
+          <div className={styles.overlay}>
+              <ul>
+                  <li>Number</li>
+                  <li>BigInt</li>
+                  <li>String</li>
+                  <li>Undefined</li>
+                  <li>Boolean</li>
+              </ul>
+          </div>
   
  </div>
  <div className={styles.item}>
@@ -117,13 +179,23 @@ export  default function JsPage () {
    <h3  className={styles.h3}>Свойства объектов</h3>
    <p className={styles.temporarily}>В разработке</p>
      <span className={styles.spanHard}>Эксперт</span>
-  
+     <div className={styles.overlay_right}>
+         <ul>
+             <li>Number</li>
+             <li>BigInt</li>
+             <li>String</li>
+             <li>Undefined</li>
+             <li>Boolean</li>
+         </ul>
+     </div>
+
+
  </div>
 
       </div>
           
         </article>
-        <p className={styles.footertitle}>NazDev corporation</p>
+        <p className={styles.footerTitle}>NazDev corporation</p>
     </div>
   )
 }
