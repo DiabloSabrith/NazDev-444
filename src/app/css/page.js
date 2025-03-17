@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./page.module.scss"
 import Image from "next/image"
+import Link from "next/link";
 export  default function JsPage () {
   return (
     <div className={styles.container}>
@@ -12,6 +13,7 @@ export  default function JsPage () {
                <li className={styles.li}><a className ={styles.a} href="/js">Java script</a></li>
                <li className={styles.li}><a className ={styles.a} href="/html">HTML</a></li>
                <li className={styles.li}><a className ={styles.a} href="/react">React</a></li>
+                  <li className={styles.li}><a className ={styles.a} href="/support">Поддержка</a></li>
              </ul>
     </header>
       <article className={styles.main}>
@@ -27,7 +29,13 @@ export  default function JsPage () {
                alt="Loading..."
              />
              <h3 className={styles.h3}>Селекторы</h3>
-             <p>Lorem6  </p>
+           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Image className={styles.spanLow}
+                  src="/img/low.png"
+                  height={30}
+                  width={30}
+                  alt="Loading..."/>
+
            <div className={styles.overlay_right}>
                <ul>
                    <li>Примеры</li>
@@ -56,7 +64,12 @@ export  default function JsPage () {
            alt="Loading..."
          />
          <h3 className={styles.h3}>Позиционирование</h3>
-         <p>Lorem6  </p>
+           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Image className={styles.spanLow}
+                  src="/img/low.png"
+                  height={30}
+                  width={30}
+                  alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
                    <li>Примеры</li>
@@ -85,7 +98,12 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Работа <br/>с изображениями</h3>
-   <p>Lorem6  </p>
+            <Link className={styles.a} href="/js/cycle">Начать </Link>
+            <Image className={styles.spanLow}
+                   src="/img/medium.png"
+                   height={30}
+                   width={30}
+                   alt="Loading..."/>
             <div className={styles.overlay_right}>
                 <ul>
                     <li>Примеры</li>
@@ -128,7 +146,12 @@ export  default function JsPage () {
               <li>Типографика</li>
           </ul>
       </div>
-   <p>Lorem6  </p>
+      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Image className={styles.spanLow}
+             src="/img/medium.png"
+             height={30}
+             width={30}
+             alt="Loading..."/>
   </div>
   <div className={styles.item}>
     <Image
@@ -139,7 +162,12 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Flexbox</h3>
-   <p>Lorem6  </p>
+      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Image className={styles.spanLow}
+             src="/img/medium.png"
+             height={30}
+             width={30}
+             alt="Loading..."/>
       <div className={styles.overlay_right}>
           <ul>
               <li>Примеры</li>
@@ -166,7 +194,12 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Трансформации <br/>и переходы</h3>
-   <p>Lorem6  </p>
+      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Image className={styles.spanLow}
+             src="/img/medium.png"
+             height={30}
+             width={30}
+             alt="Loading..."/>
       <div className={styles.overlay_right}>
           <ul>
               <li>Примеры</li>
@@ -195,7 +228,12 @@ export  default function JsPage () {
             alt="Loading..."
           />
           <h3 className={styles.h3}>Анимации</h3>
-          <p>Lorem6  </p>
+           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Image className={styles.spanLow}
+                  src="/img/medium.png"
+                  height={30}
+                  width={30}
+                  alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
                    <li>Примеры</li>
@@ -223,7 +261,12 @@ export  default function JsPage () {
            alt="Loading..."
          />
          <h3 className={styles.h3}>Препроцессоры</h3>
-         <p>Lorem6</p>
+           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Image className={styles.spanLow}
+                  src="/img/hard.png"
+                  height={30}
+                  width={30}
+                  alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
                    <li>Примеры</li>

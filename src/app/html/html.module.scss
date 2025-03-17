@@ -135,14 +135,29 @@
 .main_TemItems:has(.item:hover) .item:not(:hover) {
   filter: blur(4px)
 }
+.item:hover .a{
+  color: #fff;
+  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+  box-shadow: 0 10px 25px 0 rgba(49, 196, 190, 0.75);
+  transition: all .4s ease-in-out;
+  padding: 3px 25px;
+  border-radius: 5px;
+  letter-spacing: 1px;
 
+}
+.spanLow{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: #00e600;
+  font-weight: 700;
 
+}
 .item span{
   position: absolute;
   right: 20px;
   bottom: 20px;
   color: #00e600;
-  
 }
 .footerTitle{
   text-align: center;

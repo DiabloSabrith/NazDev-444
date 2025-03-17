@@ -2,13 +2,16 @@
 import React, {useState,useEffect} from 'react'
 import styles from "./page.module.scss";
 import Image from 'next/image'
+
+
 import Link  from "next/link"
 import 'animate.css';
+import WarningVideo from "@/components/warningVideo/warningVideo";
 import IntTable from "@/components/IntaractivTable/IntTable";
 import Accordion from "@/components/accordion/accordion";
 
 export  default function JsPage () {
-    // @ts-ignore
+
     return(
         <div className={styles.container}>
             <div className={styles.wrapper}>
@@ -52,8 +55,8 @@ export  default function JsPage () {
                            <div className={styles.itemOne}>
                                <Image className={styles.img}
                                       src="/img/js.jpg"
-                                      width={220}
-                                      height={220}
+                                      width={240}
+                                      height={240}
                                       alt="Loading..."
                                />
                            </div>
@@ -65,13 +68,7 @@ export  default function JsPage () {
                    </div>
                 </div>
                 <div className={styles.videoBlock}>
-
-                    <iframe width="1000" height="500" src="https://www.youtube.com/embed/-R_anA8X_v0"
-                            title="YouTube video player" frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowFullScreen>
-
-                    </iframe>
+                    <WarningVideo/>
                 </div>
             </div>
         </div>

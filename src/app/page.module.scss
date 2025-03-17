@@ -43,10 +43,15 @@
 .img{
   border-radius: 20px;
 }
+.a:hover{
+  color: blueviolet;
+  transition: all 0.3s ease-in;
+}
 
 .container{
   width: 1400px;
   margin: 0 auto ;
+  height: 1200px;
 }
 .header{
   width: 100%;
@@ -105,6 +110,32 @@ letter-spacing: 2px;
      text-transform: uppercase;
      text-align: center;
      padding-top: 120px;
+   }
+ }
+ .infoBlock{
+   width: 100%;
+   height: 300px;
+   background-color:transparent;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   .infoBlock_ItemsBlock{
+     width: 80%;
+     height: 80%;
+     background-color: transparent;
+     display: flex;
+     flex-direction: row;
+     gap:20px;
+     align-items: center;
+     justify-content: center;
+     .Info_Item{
+       width: 25%;
+       height: 85%;
+       background-color: transparent;
+       display: flex;
+       flex-direction: column;
+       border-radius: 20px;
+     }
    }
  }
 .itemFooter p{
@@ -203,10 +234,36 @@ letter-spacing: 2px;
   left: 72%;
   font-weight: bold;
   transform: rotate(-13deg);
+  animation: BetaAnim 1.5s  ease-in-out infinite;
 }
 .a{
   font-size: 22px;
 }
+
+@keyframes BetaAnim {
+  0% {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  25% {
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+  50% {
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+  75% {
+    font-size: 23px;
+    letter-spacing: 2px;
+  }
+  100% {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+}
+
+
 @keyframes PosAnimUp {
   0% {
     transform: translateY(0px);
@@ -339,9 +396,136 @@ letter-spacing: 2px;
   }
 }
 
- 
- 
- 
+
+@property --num {
+  syntax: '<integer>';
+  inherits: true;
+  initial-value: 0;
+}
+
+@property --dev {
+  syntax: '<integer>';
+  inherits: true;
+  initial-value: 0;
+}
+
+.devHour_TitleOne{
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  p{
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+.devHour_TitleTwo {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+}
+.devHour{
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.devHour::before {
+  font-size: 70px;
+  counter-reset: my-counter var(--num);
+  content: counter(my-counter);
+  animation: countOne 15s ease-in-out forwards;
+}
+
+@keyframes countOne {
+  from {--num: 1}
+  to { --num: 370; }
+}
+.TheoryHour {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TheoryHour::before {
+  font-size: 70px;
+  content: counter(my-counter);
+  counter-reset: my-counter var(--dev);
+  animation: countTwo 7s ease-in-out forwards;
+  display: inline-block;
+}
+
+@keyframes countTwo {
+  from { --dev: 1; }
+  to { --dev: 33; }
+}
+
+@property --dev {
+  syntax: '<integer>';
+  inherits: true;
+  initial-value: 0;
+}
+
+
+.devHour_TitleThree {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  p {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+.PractikHour{
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.PractikHour::before {
+  font-size: 70px;
+  content: counter(my-counter);
+  counter-reset: my-counter var(--three);
+  animation: countThree 7s ease-in-out forwards;
+  display: inline-block;
+}
+@keyframes countThree {
+  from { --three: 1; }
+  to { --three: 52; }
+}
+@property --three {
+  syntax: '<integer>';
+  inherits: true;
+  initial-value: 0;
+}
+
  
 
   
