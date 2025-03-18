@@ -3,7 +3,9 @@
 import React from 'react'
 import styles from "./page.module.scss";
 import Image from 'next/image'
+import Modal from "@/components/modal/modal";
 import Link  from "next/link"
+
 import 'animate.css';
 import IntTable from "@/components/IntaractivTable/IntTable";
 import Accordion from "@/components/accordion/accordion";
@@ -109,7 +111,10 @@ export  default function JsPage () {
                 <div className={styles.contentTwo}>
 
                   <div className={styles.contentTwo_Items}>
-                     <div className={styles.item}><p>Интенсивы</p></div>
+                     <div className={styles.item}>
+                         <Modal/>
+
+                     </div>
                       <div className={styles.item}><p>О нас</p></div>
                       <div className={styles.item}><p>Сообщество</p></div>
                       <div className={styles.item}><p>You Tube</p></div>

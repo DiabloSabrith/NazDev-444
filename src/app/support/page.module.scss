@@ -4,29 +4,33 @@ $br:20px;
 .container{
   width: 1400px;
   margin: 0 auto ;
-  height: 1700px;
+  height: 5300px;
   background-color:transparent;
   display:flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+align-items: center;
 }
 .wrapper{
+  margin-top: 10px;
   position: relative;
   width: 95%;
-  height: 1400px;
-  margin-top:10px;
-  background-color:$br;
+  height: 900px;
+  background-color:transparent;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
   border-radius: $br;
   gap :20px;
+  .a:hover{
+    color: blueviolet;
+    transition: all 0.4s ease-in-out;
+
+  }
   .main{
     margin-top: 20px;
     width: 55%;
     height: 80%;
-    background-color: transparent;
     section{
       margin: 0 auto  ;
       display: flex;
@@ -76,6 +80,7 @@ $br:20px;
         }
       }
     }
+
   }
   .article{
     margin-top: 20px;
@@ -90,7 +95,7 @@ $br:20px;
     justify-content: center;
     .articleItem{
       width: 45%;
-      height: 45%;
+      height: 75%;
       background-color: rgba(53, 48, 48, 0.1);
       box-shadow: 0 5px 5px 0 rgba(49, 196, 190, 0.35);
       border-radius: 10px;
@@ -111,7 +116,46 @@ $br:20px;
       }
     }
   }
+  .articleItem:hover{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px 0 rgba(49, 196, 190, 0.35);
+  }
 
+}
+.moreInfoBlock{
+  width: 95%;
+  height: 4900px;
+  background-color: transparent;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  gap:20px;
+.InfoBlock{
+  width: 90%;
+  height: 20%;
+  background-color: rgba(53, 48, 48, 0.1);
+  box-shadow: 0 5px 5px 0 rgba(49, 196, 190, 0.35);
+  border-radius: 20px;
+  margin-top: 20px;
+  h2{
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+  p{
+    font-size: 17px;
+    padding:10px 30px;
+    line-height: 25px;
+  }
+}
+  .InfoBlock:hover{
+    transition: all 0.4s ease-in-out;
+    background-color: rgba(53, 48, 48, 0.1);
+    box-shadow: 0 10px 15px 0 rgba(49, 196, 190, 0.35);
+    transform: scale(1.05);
+  }
 }
 
 .ul{
@@ -127,5 +171,5 @@ $br:20px;
 }
 .a{
   color: white;
-  font-size: 22px;
+  font-size: 25px;
 }
