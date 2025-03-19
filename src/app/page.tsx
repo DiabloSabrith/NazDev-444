@@ -15,7 +15,7 @@ export default function Home() {
             <li className={styles.li}><a className ={styles.a} href="/html">HTML</a></li>
             <li className={styles.li}><a className ={styles.a} href="/css">CSS</a></li>
             <li className={styles.li}><a className ={styles.a} href="/react">React</a></li>
-              <li className={styles.li}><a className ={styles.a} href="/react">Поддержка</a></li>
+             <li className={styles.li}><a className ={styles.a} href="/react">Поддержка</a></li>
           </ul>
       </header>
 
