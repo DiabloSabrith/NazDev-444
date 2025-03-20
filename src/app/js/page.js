@@ -32,7 +32,7 @@ export  default function JsPage () {
                />
             
                <h3 className={styles.h3}>Типы данных</h3>
-               <Link className={styles.a} href="/js/date">Начать </Link>
+               <Link className={styles.a} href="/js/bigint">Начать </Link>
 
                <Image className={styles.spanLow}
                src="/img/low.png"

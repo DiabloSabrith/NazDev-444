@@ -1,6 +1,13 @@
+
+
 .p{
   color:#fff;
   padding-left:150px;
   padding-right:150px;
   font-size: 25px;
+}
+@media (min-width:320px) and (max-width: 475px){
+  .p{
+    font-size: 5vw;
+  }
 }
