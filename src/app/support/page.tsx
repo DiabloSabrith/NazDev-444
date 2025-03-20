@@ -10,7 +10,7 @@ export  default function JsPage () {
         <div className={styles.main}>
 
             <ul className={styles.ul}>
-                <li className={styles.li}><a className ={styles.a} href="/js">Гла</a></li>
+                <li className={styles.li}><a className ={styles.a} href="/js">Главная</a></li>
                 <li className={styles.li}><a className ={styles.a} href="/js">Java script</a></li>
                 <li className={styles.li}><a className ={styles.a} href="/css">CSS</a></li>
                 <li className={styles.li}><a className ={styles.a} href="/react">React</a></li>
