@@ -20,7 +20,7 @@ export  default function JsPage () {
             
 
                     <p>Пример на СodePen</p>
-                    <button className={styles.codePenBtn}>Посмотреть примеер    </button>
+                    <button className={styles.codePenBtn}>Посмотреть пример </button>
 
             
 
