@@ -1,0 +1,32 @@
+{
+  "name": "NazDev Free Curs",
+  "short_name": "NazDev",
+  "description": "Стань лучшим разработчиком вместе с NazDev",
+  "display": "standalone",
+  "background_color": "#240935",
+  "theme_color": "#8a2be2",
+  "scope": "/",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/img/NazDevLogo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/img/NazDevLogo.jpg",
+      "sizes": "256x256",
+      "type": "image/jpg"
+    },
+    {
+      "src": "/img/NazDevLogo.jpg",
+      "sizes": "384x384",
+      "type": "image/jpg"
+    },
+    {
+      "src": "//img/NazDevLogo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpg"
+    }
+  ]
+}

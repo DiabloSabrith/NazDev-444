@@ -420,7 +420,7 @@ letter-spacing: 2px;
   left: 72%;
   font-weight: bold;
   transform: rotate(-13deg);
-  animation: BetaAnim 1.5s  ease-in-out infinite;
+  animation: BetaAnim 1.5s  linear infinite;
 }
 .a{
   font-size: 22px;
