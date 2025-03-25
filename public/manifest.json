@@ -1,6 +1,7 @@
 {
   "name": "NazDev Free Curs",
   "short_name": "NazDev",
+  "start_url": "/",
   "description": "Стань лучшим разработчиком вместе с NazDev",
   "display": "standalone",
   "background_color": "#240935",
