@@ -11,35 +11,32 @@
       width: 100%;
       background-color: transparent;
       height: auto;
-    }
-
-    .header{
-      width: 100%;
-      height: auto;
-      background-color: transparent;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      .ul{
-        order:0;
-        margin-right: 0;
-        .li{
-          padding-left: 3vw;
+      .header{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: none;
+        .ul{
+          order:0;
+          margin-right: 0;
+          .li{
+            padding-left: 3vw;
+          }
+        }
+        .title{
+          padding: 0;
+          order:1;
+          font-size: 7vw;
+        }
+        .a{
+          font-size: 5vw;
         }
       }
-
-      .title{
-        padding: 0;
-        order:1;
-        font-size: 7vw;
-      }
-      .a{
-        font-size: 5vw;
-      }
     }
-
-
     .main{
       flex-direction: column;
       height:auto;

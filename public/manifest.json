@@ -1,9 +1,9 @@
 {
-  "theme_color": "#673ab7",
+  "theme_color": "#300044",
   "background_color": "#f0f0f0",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "NazDev",
+  "name": "NazDev Free Curs",
   "short_name": "NazDev"
 }

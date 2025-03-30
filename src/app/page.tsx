@@ -1,6 +1,7 @@
-
+'use client'
 import styles from "./page.module.scss";
-import Link from 'next/link'
+import Link from 'next/link' 
+import  Drawer  from "../components/drawer/drawer";
 import React from "react";
 
 export default function Home() {
@@ -11,13 +12,14 @@ export default function Home() {
         <h1 className={styles.h1}>NazDev</h1>
 
           <ul className={styles.ul}>
-            <li className={styles.li}><a className ={styles.a} href="/js">Java script</a></li>
-            <li className={styles.li}><a className ={styles.a} href="/html">HTML</a></li>
-            <li className={styles.li}><a className ={styles.a} href="/css">CSS</a></li>
-            <li className={styles.li}><a className ={styles.a} href="/react">React</a></li>
-             <li className={styles.li}><a className ={styles.a} href="/react">Поддержка</a></li>
+            <li className={styles.li}><Link className ={styles.a} href="/js">Java script</Link></li>
+            <li className={styles.li}><Link className ={styles.a} href="/html">HTML</Link></li>
+            <li className={styles.li}><Link className ={styles.a} href="/css">CSS</Link></li>
+            <li className={styles.li}><Link className ={styles.a} href="/react">React</Link></li>
+             <li className={styles.li}><Link className ={styles.a} href="/react">Поддержка</Link></li>
           </ul>
       </header>
+    <Drawer/>
 
       <div className={styles.content}>
 
