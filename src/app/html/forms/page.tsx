@@ -17,7 +17,7 @@ export  default function JsPage () {
                 <h4 >
                  Forms
                      <Image className={styles.img}
-                        src="/img/adaptiv.png"
+                        src="/img/form.png"
                         width={30}
                         height={30}
                         alt='sfcsmdfs'

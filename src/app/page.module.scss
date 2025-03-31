@@ -283,14 +283,16 @@ letter-spacing: 2px;
 .itemFooter{
   width: 200px;
   height: 280px;
-  border:1px solid blueviolet;
+  background-color: rgb(138, 43, 226,0.1);
+  box-shadow:1px 1px 3px 3px  rgb(138, 43, 226,0.6);
   border-radius: 20px;
  animation: PosAnimUp 2.5s infinite ;
 }
  .itemFooter_Down{
    width: 200px;
    height: 280px;
-   border:1px solid blueviolet;
+   background-color: rgb(138, 43, 226,0.1);
+   box-shadow:1px 1px 3px 3px  rgb(138, 43, 226,0.6);
    border-radius: 20px;
    animation: PosAnimDown 2.5s infinite ;
    p{
@@ -346,7 +348,8 @@ letter-spacing: 2px;
   .Project_item{
     width: 25%;
     height: 170px;
-    background-image:linear-gradient(45deg ,#0289cf,#db51d9);
+    background-color: rgb(138, 43, 226,0.1);
+    box-shadow:1px 1px 3px 3px  rgb(138, 43, 226,0.6);
     border-radius: 20px;
     display: flex;
     align-items: center;

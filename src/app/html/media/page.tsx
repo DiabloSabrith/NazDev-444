@@ -17,7 +17,7 @@ export  default function JsPage () {
                 <h4 >
               Медиа
                      <Image className={styles.img}
-                        src="/img/adaptiv.png"
+                        src="/img/media.png"
                         width={30}
                         height={30}
                         alt='sfcsmdfs'

@@ -17,7 +17,7 @@ export  default function JsPage () {
                 <h4 >
               Ссылки
                      <Image className={styles.img}
-                        src="/img/adaptiv.png"
+                        src="/img/link.png"
                         width={30}
                         height={30}
                         alt='sfcsmdfs'

@@ -140,7 +140,9 @@
   }
   .item{
     position: relative;
-    box-shadow: 0 0 0 1px blueviolet;
+    border-radius: 20px;
+    background-color: rgb(138, 43, 226,0.1);
+    box-shadow:1px 1px 3px 3px  rgb(138, 43, 226,0.6);
     border-radius: 20px;    
     width:45%;
     height: 25%;
