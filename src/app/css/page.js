@@ -32,7 +32,7 @@ export  default function JsPage () {
                alt="Loading..."
              />
              <h3 className={styles.h3}>Селекторы</h3>
-           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Link className={styles.a} href="/css/selectors">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -67,7 +67,7 @@ export  default function JsPage () {
            alt="Loading..."
          />
          <h3 className={styles.h3}>Позиционирование</h3>
-           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Link className={styles.a} href="/css/positions">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -101,7 +101,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Работа <br/>с изображениями</h3>
-            <Link className={styles.a} href="/js/cycle">Начать </Link>
+            <Link className={styles.a} href="/css/imges">Начать </Link>
             <Image className={styles.spanLow}
                    src="/img/medium.png"
                    height={30}
@@ -149,7 +149,7 @@ export  default function JsPage () {
               <li>Типографика</li>
           </ul>
       </div>
-      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Link className={styles.a} href="/css/adaptivs">Начать </Link>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -165,7 +165,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Flexbox</h3>
-      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Link className={styles.a} href="/css/flex">Начать </Link>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -197,7 +197,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Трансформации <br/>и переходы</h3>
-      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Link className={styles.a} href="/css/transforms">Начать </Link>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -231,7 +231,7 @@ export  default function JsPage () {
             alt="Loading..."
           />
           <h3 className={styles.h3}>Анимации</h3>
-           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Link className={styles.a} href="/css/animation">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/medium.png"
                   height={30}
@@ -264,7 +264,7 @@ export  default function JsPage () {
            alt="Loading..."
          />
          <h3 className={styles.h3}>Препроцессоры</h3>
-           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Link className={styles.a} href="/css/preprocessors">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/hard.png"
                   height={30}

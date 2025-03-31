@@ -2,6 +2,7 @@
 import React, {useState,useEffect} from 'react'
 import styles from "./page.module.scss";
 import Link  from "next/link"
+import Image  from "next/image"
 import 'animate.css';
 import WarningVideo from "@/components/warningVideo/warningVideo";
 
@@ -12,7 +13,16 @@ export  default function JsPage () {
     return(
         <div className={styles.container}>
             <div className={styles.wrapper}> 
-
+         
+            <h4 >
+         Работа с DOM
+              <Image className={styles.img}
+                 src="/img/dom.png"
+                 width={30}
+                 height={30}
+                 alt='sfcsmdfs'
+              />
+         </h4>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

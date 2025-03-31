@@ -1,6 +1,6 @@
 import React from 'react';
 import { SmileOutlined } from '@ant-design/icons';
-import { Button, Result } from 'antd';
+import { Result } from 'antd';
 import  styles from "./warning.module.scss";
 const WarningVideo= () => (
     <Result  className={styles.content}

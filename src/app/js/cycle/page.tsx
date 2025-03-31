@@ -2,6 +2,7 @@
 import React, {useState,useEffect} from 'react'
 import styles from "./page.module.scss";
 import Link  from "next/link"
+import Image  from "next/image"
 import 'animate.css';
 import WarningVideo from "@/components/warningVideo/warningVideo";
 
@@ -13,6 +14,15 @@ export  default function JsPage () {
         <div className={styles.container}>
             <div className={styles.wrapper}> 
 
+                   <h4 >
+                   Циклы while и for
+                        <Image className={styles.img}
+                           src="/img/cycle.png"
+                           width={30}
+                           height={30}
+                           alt='sfcsmdfs'
+                        />
+                   </h4>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>
@@ -20,7 +30,7 @@ export  default function JsPage () {
                 <div className={styles.cursItemBlock}>
 
                     <div className={styles.cursItem}>
-                        <h3>Циклы while и for</h3>
+                        <h3>Типы данных</h3>
                         <p>Не пройди мимо!</p>
                         <button className={styles.btn}>Начать</button>
                     </div>

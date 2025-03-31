@@ -31,7 +31,7 @@ export  default function JsPage () {
                alt="Loading..."
              />
              <h3 className={styles.h3}>Введение в HTML</h3>
-           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Link className={styles.a} href="/html/introduction">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -63,7 +63,7 @@ export  default function JsPage () {
            alt="Loading..."
          />
          <h3 className={styles.h3}>Ссылки</h3>
-           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Link className={styles.a} href="/html/links">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -95,7 +95,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Семантическая <br/> разметка </h3>
-            <Link className={styles.a} href="/js/cycle">Начать </Link>
+            <Link className={styles.a} href="/html/semantics">Начать </Link>
             <Image className={styles.spanLow}
                    src="/img/medium.png"
                    height={30}
@@ -128,7 +128,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Медиа </h3>
-      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Link className={styles.a} href="/html/media">Начать </Link>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -160,7 +160,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Метаданные</h3>
-      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Link className={styles.a} href="/html/metadata">Начать </Link>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -192,7 +192,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Формы</h3>
-      <Link className={styles.a} href="/js/cycle">Начать </Link>
+      <Link className={styles.a} href="/html/forms">Начать </Link>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}

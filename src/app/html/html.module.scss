@@ -6,6 +6,7 @@
 }
 //TODO
 @media  (min-width:320px) and (max-width: 475px){
+
   .container{
     width: 100%;
     background-color: transparent;
@@ -44,6 +45,9 @@
     .h2{
       padding: 2%;
       font-size: 5vw;
+    }
+    .main_TemItems:has(.item:hover) .item:not(:hover) {
+      filter: blur(0px)
     }
     .main_TemItems{
       height:auto;
@@ -138,10 +142,12 @@
   border-radius: 20px;    
   width:45%;
   height: 25%;
-  padding-top: 40px;text-align: center;
+  padding-top: 40px;
+  text-align: center;
   margin-left: 40px;
   margin-bottom: 30px;
   position: relative;
+
   .overlay{
     position: absolute; /* Абсолютное позиционирование относительно родителя */
     top: 0;             /* Привязываем к верху */
@@ -154,7 +160,8 @@
     justify-content: center;
     align-items: center;
     opacity: 0;           /* Изначально делаем невидимым */
-    transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
+    transition: left 0.3s ease-in-out, 
+    opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
     z-index: 1; /* Гарантирует, что оверлей будет выше item */
     border-radius: 20px;
     li{

@@ -13,17 +13,17 @@ export  default function JsPage () {
     return(
         <div className={styles.container}>
             <div className={styles.wrapper}> 
-           
-           
-            <h4 >
-                   Функции
-                        <Image className={styles.img}
-                           src="/img/func.png"
-                           width={30}
-                           height={30}
-                           alt='sfcsmdfs'
-                        />
-                   </h4>
+
+                <h4 >
+                    Flex
+                     <Image className={styles.img}
+                        src="/img/flex.png"
+                        width={30}
+                        height={30}
+                        alt='sfcsmdfs'
+                     />
+                </h4>
+
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>
@@ -33,17 +33,17 @@ export  default function JsPage () {
                     <div className={styles.cursItem}>
                         <h3>Циклы while и for</h3>
                         <p>Не пройди мимо!</p>
-                        <button className={styles.btn}>Начать</button>
+                        <button className={styles.btn}><Link href="/js/cycle">Начать</Link></button>
                     </div>
                     <div className={styles.cursItem}>
                         <h3>Функции</h3>
                         <p>Просто о сложном</p>
-                        <button className={styles.btn}>Начать</button>
+                        <button className={styles.btn}><Link href="/js/function">Начать</Link></button>
                     </div>
                     <div className={styles.cursItem}>
                         <h3>Работа с DOM</h3>
                         <p>Почти Junior</p>
-                        <button className={styles.btn}>Начать</button>
+                        <button className={styles.btn}><Link href="/js/dom">Начать</Link></button>
                     </div>
                 </div>
 

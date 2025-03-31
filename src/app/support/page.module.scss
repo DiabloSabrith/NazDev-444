@@ -11,7 +11,7 @@ $br: 20px;
 }
 
 //TODO
-@media (min-width: 320px) and (max-width: 475px) {
+@media (min-width: 320px) and (max-width: 991px) {
   .container {
     width: 100%;
     background-color: transparent;
@@ -21,7 +21,8 @@ $br: 20px;
       height: auto;
       background-color: transparent;
       display: flex;
-      flex-direction: column;
+      flex-direction: column; 
+      margin-top: 0;
       .article{
         width: 100%;
         background-color: transparent;
@@ -42,6 +43,7 @@ $br: 20px;
         }
       }
       .main {
+        margin: 0;
         width: 100%;
         .ul {
           margin: 0;
