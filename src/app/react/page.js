@@ -1,7 +1,9 @@
+'use client'
 import React from 'react'
 import styles from "./page.module.scss"
 import Image from "next/image"
 import Link from "next/link";
+import Drawer from '@/components/drawer/drawer';
 export  default function JsPage () {
   return (
     <div className={styles.container}>
@@ -16,6 +18,7 @@ export  default function JsPage () {
                   <li className={styles.li}><a className ={styles.a} href="/support">Поддержка</a></li>
              </ul>
     </header>
+    <Drawer/>
       <article className={styles.main}>
         
     <h2 className={styles.h2} >Основные темы </h2>

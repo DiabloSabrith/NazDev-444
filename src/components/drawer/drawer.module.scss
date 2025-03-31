@@ -18,14 +18,17 @@ color: #fff;
 box-shadow: 0 10px 25px 0 rgba(49, 196, 190, 0.75);
 }
 .a{
-    padding-top: 10px;
     color:  #fff;
     text-align: center;
     font-size: 22px;
+    font-weight: 600;
+}
+.a:hover{
+    color: blueviolet;
 }
 .linkBlock{
     width: 100%;
-    height: 340px;
+    height: 370px;
     background-color:transparent;
     display: flex;
     flex-direction: column;
@@ -34,9 +37,12 @@ box-shadow: 0 10px 25px 0 rgba(49, 196, 190, 0.75);
 
 }
 .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     width: 80%;    
-    height: 30%;
+    height: 35%;
     background-image: linear-gradient(
         to right,
         #25aae1,
