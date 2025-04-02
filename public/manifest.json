@@ -4,6 +4,6 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "NazDev Free Curs",
-  "short_name": "NazDev"
+  "name": "NazDev Lite",
+  "short_name": "NazDev Lite"
 }

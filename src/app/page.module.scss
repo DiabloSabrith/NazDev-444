@@ -286,7 +286,33 @@ letter-spacing: 2px;
   background-color: rgb(138, 43, 226,0.1);
   box-shadow:1px 1px 3px 3px  rgb(138, 43, 226,0.6);
   border-radius: 20px;
- animation: PosAnimUp 2.5s infinite ;
+  animation: PosAnimUp 2.5s infinite ;
+  display: flex;
+  gap: 20px;
+  position:relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+ .footerBtn{
+  width:80px;
+  border-radius: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #40e495,
+    #30dd8a,
+    #2bb673);
+  justify-content: center;
+  img{
+    position: relative;
+    top: 3px;
+  }
+
+ }
 }
  .itemFooter_Down{
    width: 200px;
@@ -295,10 +321,33 @@ letter-spacing: 2px;
    box-shadow:1px 1px 3px 3px  rgb(138, 43, 226,0.6);
    border-radius: 20px;
    animation: PosAnimDown 2.5s infinite ;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  gap: 20px;
+   align-items: center;
+   .footerBtn{
+    width:80px;
+    background-image: linear-gradient(
+      to right,
+      #25aae1,
+      #40e495,
+      #30dd8a,
+      #2bb673);
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      position: relative;
+      top: 3px;
+    }
+   }
    p{
      text-transform: uppercase;
      text-align: center;
-     padding-top: 120px;
+ 
    }
  }
  .infoBlock{
@@ -327,10 +376,14 @@ letter-spacing: 2px;
      }
    }
  }
-.itemFooter p{
+.itemFooter{
+ p{
   text-transform: uppercase;
   text-align: center;
-  padding-top: 120px;
+}
+a{
+  padding: 0;
+}
 }
 .ProjetcsBlock{
   width: 560px;
@@ -367,12 +420,12 @@ letter-spacing: 2px;
 }
 .itemFooter_Down:hover{
   transition: all 0.5s ease;
-  background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
+  background-color: rgb(138, 43, 226,0.6);
   transform: scale(1.07);
 }
 .itemFooter:hover{
   transition: all 0.5s ease;
-  background-image:linear-gradient( 45deg ,#0289cf,#db51d9);
+  background-color: rgb(138, 43, 226,0.6);
   transform: scale(1.07);
 }
 

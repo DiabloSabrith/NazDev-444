@@ -1,6 +1,7 @@
 'use client'
 import styles from "./page.module.scss";
 import Link from 'next/link' 
+import Image from 'next/image' 
 import  Drawer  from "../components/drawer/drawer";
 import React from "react";
 
@@ -80,10 +81,47 @@ export default function Home() {
         </section>
 
           <footer className={styles.footer}>
-         <div className={styles.itemFooter}><p>Java script</p></div>
-         <div className={styles.itemFooter_Down}><p>html</p></div>
-         <div className={styles.itemFooter}><p>css</p></div>
-         <div className={styles.itemFooter_Down}><p>react</p></div>
+         <div className={styles.itemFooter}>
+          <p>Java script</p>
+          <button className={styles.footerBtn}><Link href="/js">
+          <Image
+           src="/img/next.png"
+           width={30}
+           height={30}
+           alt="sorry"
+           />
+          </Link></button>
+          </div>
+         <div className={styles.itemFooter_Down}><p>html</p>
+         <button className={styles.footerBtn}><Link href="/html">
+           <Image
+           src="/img/next.png"
+           width={30}
+           height={30}
+           alt="sorry"
+           />
+           </Link></button></div>
+         <div className={styles.itemFooter}>
+          <p>css</p>
+          <button className={styles.footerBtn}><Link href="/css">
+          <Image
+          src="/img/next.png"
+          width={30}
+          height={30}
+          alt="sorry"
+          />
+          </Link></button>
+          </div>
+         <div className={styles.itemFooter_Down}><p>react</p>
+         <button className={styles.footerBtn}><Link href="/react">
+            <Image
+            src="/img/next.png"
+            width={30}
+            height={30}
+            alt="sorry"
+            />
+            </Link></button>
+        </div>
         </footer>
 
       </div>
