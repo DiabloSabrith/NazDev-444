@@ -32,7 +32,7 @@ export  default function JsPage () {
                alt="Loading..."
              />
              <h3 className={styles.h3}>Введение в React </h3>
-           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Link className={styles.a} href="/react/introduction">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -64,7 +64,7 @@ export  default function JsPage () {
            alt="Loading..."
          />
          <h3 className={styles.h3}>Основы JSX </h3>
-           <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <Link className={styles.a} href="/react/jsx">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -93,7 +93,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Компоненты</h3>
-            <Link className={styles.a} href="/js/cycle">Начать </Link>
+            <Link className={styles.a} href="/react/components">Начать </Link>
             <Image className={styles.spanLow}
                    src="/img/medium.png"
                    height={30}
@@ -123,7 +123,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>State</h3>
-       <Link className={styles.a} href="/js/cycle">Начать </Link>
+       <Link className={styles.a} href="/react/state">Начать </Link>
        <Image className={styles.spanLow}
               src="/img/medium.png"
               height={30}
@@ -153,7 +153,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Обработка событий</h3>
-       <Link className={styles.a} href="/js/cycle">Начать </Link>
+       <Link className={styles.a} href="/react/events">Начать </Link>
        <Image className={styles.spanLow}
               src="/img/hard.png"
               height={30}
@@ -184,7 +184,7 @@ export  default function JsPage () {
      alt="Loading..."
    />
    <h3 className={styles.h3}>Routing</h3>
-       <Link className={styles.a} href="/js/cycle">Начать </Link>
+       <Link className={styles.a} href="/react/routing">Начать </Link>
        <Image className={styles.spanLow}
               src="/img/hard.png"
               height={30}

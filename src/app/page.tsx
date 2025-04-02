@@ -10,7 +10,7 @@ export default function Home() {
     <div className={styles.container}>
 
       <header className={styles.header}>
-        <h1 className={styles.h1}>NazDev</h1>
+        <h1 className={styles.h1}>NazDev <span className={styles.span}>Lite</span></h1>
 
           <ul className={styles.ul}>
             <li className={styles.li}><Link className ={styles.a} href="/js">Java script</Link></li>
