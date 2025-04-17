@@ -3,6 +3,7 @@ import styles from "./page.module.scss";
 import Link from 'next/link' 
 import Image from 'next/image' 
 import  Drawer  from "../components/drawer/drawer";
+import Circles from "@/components/circles-anim/circles-anim"
 import React from "react";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
             <li className={styles.li}><Link className ={styles.a} href="/css">CSS</Link></li>
             <li className={styles.li}><Link className ={styles.a} href="/react">React</Link></li>
              <li className={styles.li}><Link className ={styles.a} href="/react">Поддержка</Link></li>
+             <li className={styles.li}><Link className ={styles.a} href="/chat-ai">Naz AI</Link></li>
           </ul>
       </header>
     <Drawer/>
@@ -125,7 +127,7 @@ export default function Home() {
         </footer>
 
       </div>
-
+      <Circles/>
     </div>
   );
 }

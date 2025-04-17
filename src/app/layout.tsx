@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import styles from "./page.module.scss"
+import Circles from "@/components/circles-anim/circles-anim"
 import "./globals.css";
 
 const geistSans = Geist({
@@ -36,6 +36,7 @@ export default function RootLayout({
     </head>
     <body className={`${geistSans.variable} ${geistMono.variable}`}>
     {children}
+    <Circles/>
     </body>
     </html>
   );

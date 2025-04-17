@@ -15,7 +15,8 @@ export  default function JsPage () {
                <li className={styles.li}><a className ={styles.a} href="/js">Java script</a></li>
                <li className={styles.li}><a className ={styles.a} href="/html">HTML</a></li>
                <li className={styles.li}><a className ={styles.a} href="/css">CSS</a></li>
-                  <li className={styles.li}><a className ={styles.a} href="/support">Поддержка</a></li>
+                <li className={styles.li}><a className ={styles.a} href="/support">Поддержка</a></li>
+                <li className={styles.li}><Link className ={styles.a} href="/chat-ai">Naz AI</Link></li>
              </ul>
     </header>
     <Drawer/>
@@ -211,6 +212,7 @@ export  default function JsPage () {
         
       </article>
         <p className={styles.footerTitle}>NazDev corporation</p>
+        
    </div>
   )
 }

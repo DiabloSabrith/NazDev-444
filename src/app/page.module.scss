@@ -466,22 +466,22 @@ a{
   letter-spacing: 2px;
   font-weight:500;
 }
-.h1::before{
-  content: 'BETA';
-  position: absolute;
-  width: 40%;
-  height: 35px;
-  top: 40px;
-  color: yellow;
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 72%;
-  font-weight: bold;
-  transform: rotate(-13deg);
-  animation: BetaAnim 1.5s  linear infinite;
-}
+/* .h1::before{ */
+/*   content: 'BETA'; */
+/*   position: absolute; */
+/*   width: 40%; */
+/*   height: 35px; */
+/*   top: 40px; */
+/*   color: yellow; */
+/*   font-size: 22px; */
+/*   display: flex; */
+/*   justify-content: center; */
+/*   align-items: center; */
+/*   left: 72%; */
+/*   font-weight: bold; */
+/*   transform: rotate(-13deg); */
+/*   animation: BetaAnim 1.5s  linear infinite; */
+/* } */
 .a{
   font-size: 22px;
 }

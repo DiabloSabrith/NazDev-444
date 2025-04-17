@@ -1,0 +1,89 @@
+.container{
+    width: 1000px;
+    height: 100vh;
+    background-color:transparent;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .contentAi{
+       width: 70%;
+       height: 500px;
+       background-color: rgb(138, 43, 226,0.1);
+       box-shadow:1px 1px 3px 3px  rgb(138, 43, 226,0.6);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .h1{
+            font-size: 43px;
+            letter-spacing: 4px;
+            padding: 20px;
+        }
+        .input{
+            width: 50%;
+            outline: none;
+            height: 45px;
+            border:none;
+            padding-left: 10px;
+            background-color: rgb(138, 43, 226,0.1);
+            box-shadow:1px 1px 3px 1px  rgb(138, 43, 226,0.6);
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .input::placeholder{
+            color: #999;
+            font-size: 18px;
+        }
+        .input:hover{
+            transition: all 0.3s ease;
+            transform: scale(1.05);
+        }
+        .btn{
+            background-color: rgb(138, 43, 226,0.4);
+            box-shadow:1px 1px 3px 1px  rgb(138, 43, 226,0.6);
+           border: none;
+           padding:7px 25px;
+           font-size: 18px;
+           margin-top: 20px;
+         border-radius: 5px;
+        }
+        .responseBlock{
+            width: 80%;
+            height: auto;
+        }
+        .p{
+            margin-top: 20px;
+            color:#fff;
+            line-height: 25px;
+        }
+        .btn:hover{
+            transition: all 0.3s ease;
+            transform: scale(1.05);
+            background-color: rgb(138, 43, 226,0.8);
+        }
+        .span{
+            text-align: center;
+            padding: 5px 70px ;
+        }
+    }
+    .contentAi:hover{
+        transition:  all 0.3s ease;
+        background-color: rgb(138, 43, 226,0.2);
+    }
+}
+
+@media(min-width:330px) and (max-width:575px){
+    .container{
+        width: 100%;
+        background-color:transparent;
+        .contentAi{
+            width: 90%;
+            .input{
+                width: 70%;
+            }
+            gap: 10px;
+        }
+    }
+}

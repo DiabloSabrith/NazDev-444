@@ -17,6 +17,7 @@ export  default function JsPage () {
                 <li className={styles.li}><a className ={styles.a} href="/css">CSS</a></li>
                 <li className={styles.li}><a className ={styles.a} href="/react">React</a></li>
                 <li className={styles.li}><a className ={styles.a} href="/html">HTML</a></li>
+                <li className={styles.li}><Link className ={styles.a} href="/chat-ai">Naz AI</Link></li>
             </ul>
             <Drawer/>
             <section>
