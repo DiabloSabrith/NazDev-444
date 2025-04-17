@@ -10,7 +10,10 @@ $br:20px;
   width: 1400px;
   margin: 0 auto ;
   height: 1100px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   .img{
     position: relative;
    top: 12px;

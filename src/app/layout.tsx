@@ -36,7 +36,6 @@ export default function RootLayout({
     </head>
     <body className={`${geistSans.variable} ${geistMono.variable}`}>
     {children}
-    <Circles/>
     </body>
     </html>
   );
