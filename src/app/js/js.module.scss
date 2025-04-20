@@ -146,6 +146,7 @@
     font-weight: 500;
     font-size: 25px;
     padding:10px 20px;
+    padding-bottom: 25px;
   }
   .item:hover{
     background-color: rgb(138, 43, 226);
@@ -171,6 +172,7 @@
    background-color: transparent;
    height: auto; 
    .a{
+    margin-top: 30px;
      background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
      box-shadow: 0 10px 25px 0 rgba(49, 196, 190, 0.75);
      transition: all .4s ease-in-out;
@@ -225,11 +227,12 @@
        width: 90%;
        box-shadow: none;
        border-radius: 20px;    
-       background-color:transparent;
+       background-color:red;
        margin: 0;
        height: 20%;
        padding-bottom: 5%;
        .a{
+      
         color:#fff;
        }
        .overlay{
