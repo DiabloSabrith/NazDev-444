@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>Если у тебя всё рендерится — значит, Router сегодня в хорошем настроении</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

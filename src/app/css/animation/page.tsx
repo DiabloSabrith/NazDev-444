@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}> Моя цель — не просто показать уровень. А поднять твой</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

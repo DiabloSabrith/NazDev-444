@@ -23,6 +23,7 @@ export  default function JsPage () {
                  alt='sfcsmdfs'
               />
          </h4>
+         <span className={styles.span}>Сайт сделан подростком, но знания — на уровне взрослых</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

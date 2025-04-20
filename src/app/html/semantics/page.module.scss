@@ -33,6 +33,12 @@ $br:20px;
       font-size: 25px;
       padding-top: 20px;
     }
+    .span{
+      text-align: center;
+      padding: 0px  30px;
+       color:rgb(138, 43, 226,1);
+       font-size: 17px;
+    }
   .videoBlock{
     width: 90%;
     height: 45%;
@@ -84,7 +90,7 @@ $br:20px;
 }
 }
 //TODO
-@media (min-width:320px) and (max-width: 991px){
+@media (min-width:320px) and (max-width: 575px){
 .container{
   width: 100%;
   background-color: transparent;
@@ -92,6 +98,7 @@ $br:20px;
 
   .wrapper{
     width: 100%;
+    height: auto;
     h4{
       font-size: 6vw;
       padding-top: 10px;
@@ -103,9 +110,10 @@ $br:20px;
       height: 600px;
       flex-direction: column;
       background-color:transparent;
-      gap:10px;
+      gap:5px;
       .cursItem{
         margin-top: 10px;
+        margin-bottom: 10px;
         width: 90%;
         height: 35%;
         background-color: rgb(138, 43, 226,0.1);

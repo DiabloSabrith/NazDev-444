@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>Если понял useEffect — поздравляю, ты официально прошёл крещение JavaScript’ом</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

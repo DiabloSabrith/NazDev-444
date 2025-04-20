@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>Этот сайт — как лестница. Шаг за шагом. Не важно, с какого ты начал</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

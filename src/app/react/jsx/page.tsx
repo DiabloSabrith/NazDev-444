@@ -23,6 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
+                <span className={styles.span}>JSX — это не магия. Это просто HTML, который решил быть стильным</span>
 
                 <div className={styles.videoBlock}>
                     <WarningVideo/>

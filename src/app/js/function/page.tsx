@@ -24,6 +24,7 @@ export  default function JsPage () {
                            alt='sfcsmdfs'
                         />
                    </h4>
+                   <span className={styles.span}>Никаких подписок. Только ты, знания и этот дерзкий дизайн</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

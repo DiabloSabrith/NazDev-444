@@ -23,6 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
+                <span className={styles.span}>Учись бесплатно. Плати только вниманием (и иногда интернетом)</span>
 
                 <div className={styles.videoBlock}>
                     <WarningVideo/>

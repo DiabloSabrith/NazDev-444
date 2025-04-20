@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>Без тебя эта платформа — просто код. С тобой — она живёт</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

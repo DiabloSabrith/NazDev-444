@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>17 лет. Один ноут. Несколько тысяч строк кода. И ни капли несерьёзности</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

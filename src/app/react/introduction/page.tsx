@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>Если бы я получал по рублю за каждую ошибку, у меня уже был бы сервер получше</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>Я не фулстек. Я фулстрадал, но не сдался</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

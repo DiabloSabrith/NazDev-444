@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+             <span className={styles.span}>Ты — не просто трафик. Ты — мой смысл нажать yarn dev утром</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

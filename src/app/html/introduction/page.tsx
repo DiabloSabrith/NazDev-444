@@ -23,6 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
+                <span className={styles.span}>  Я сделал эту платформу, потому что когда-то сам искал такую. Теперь она — для тебя</span>
 
                 <div className={styles.videoBlock}>
                     <WarningVideo/>

@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>Ты не просто попал на сайт. Ты попал в движение</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

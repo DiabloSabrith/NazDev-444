@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}> Ты не просто пользователь. Ты — причина, по которой я каждый день открываю VS Code</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

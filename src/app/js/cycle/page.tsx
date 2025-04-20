@@ -23,6 +23,7 @@ export  default function JsPage () {
                            alt='sfcsmdfs'
                         />
                    </h4>
+                   <span className={styles.span}>  <span className={styles.span}>Создан не корпорацией — создан мечтой 17-летнего</span></span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

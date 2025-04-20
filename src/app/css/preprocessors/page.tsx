@@ -23,7 +23,7 @@ export  default function JsPage () {
                         alt='sfcsmdfs'
                      />
                 </h4>
-
+                <span className={styles.span}>Когда ты учишься тут — я учусь быть лучше для тебя</span>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>
