@@ -12,8 +12,8 @@ export default function MusicReactiveBackground() {
     body.style.backgroundSize = "cover";
     body.style.backgroundPosition = "center";
     body.style.transformOrigin = "50% 50%";
-    body.style.transition = "background-image 0.3s ease, transform 0.2s ease";
-    body.style.backgroundImage = `radial-gradient(circle at center, rgba(138, 43, 226, 0.2), transparent 70%)`;
+    body.style.transition = "background-image 0.3s ease"; // убрали transform
+    body.style.backgroundImage = `radial-gradient(circle at center, rgba(138, 43, 226, 0.5), transparent 70%)`;
 
     navigator.mediaDevices
       .getUserMedia({ audio: true })
@@ -39,9 +39,8 @@ export default function MusicReactiveBackground() {
           // Сглаживание пульсации
           smoothIntensity = smoothIntensity * 0.9 + rawIntensity * 0.1;
 
-          // Обновление фона и масштаба
+          // Только обновляем градиент, без масштабирования
           body.style.backgroundImage = `radial-gradient(circle at center, rgba(138, 43, 226, ${smoothIntensity}), transparent 70%)`;
-          body.style.transform = `scale(${1 + smoothIntensity * 0.3})`;
         };
 
         animate();
@@ -51,5 +50,5 @@ export default function MusicReactiveBackground() {
       });
   }, []);
 
-  return null; // компонент ничего не рендерит, он просто запускает фон
+  return null;
 }
