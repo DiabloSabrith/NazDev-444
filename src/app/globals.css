@@ -14,19 +14,26 @@ body {
   overflow-x: hidden;
   font-family: "Rubik", sans-serif;
 }
-
 body {
+  margin: 0;
+  padding: 0;
   color: #fff;
-  background: #111;
+  background-color: #111;
   font-family: "Rubik", sans-serif;
+  overflow: hidden;
+
+  transform-origin: 50% 50%; /* Центр экрана */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-image: radial-gradient(circle at center, rgba(138, 43, 226, 0.2), transparent);
   background-repeat: no-repeat;
-  background-size: 200% 200%;
-  animation: pulseBackground 5s ease-in-out infinite;
+  background-size: cover; /* Покрывает весь экран */
+  background-position: center; /* ВАЖНО: центрирует круг */
+  background-image: radial-gradient(circle, rgba(138, 43, 226, 0.2), transparent 70%);
+  transition: background-image 0.3s ease, transform 0.2s ease;
 }
+
+
 
 @keyframes pulseBackground {
   0% {
