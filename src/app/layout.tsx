@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Circles from "@/components/circles-anim/circles-anim"
+import MusicPlayer from "@/components/music-anim/music-anim";
 import "./globals.css";
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +34,7 @@ export default function RootLayout({
 
     </head>
     <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <MusicPlayer/>
     {children}
     </body>
     </html>
