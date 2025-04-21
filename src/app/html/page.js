@@ -4,6 +4,7 @@ import styles from "./html.module.scss";
 import Image from "next/image"
 import Link from "next/link";
 import Drawer from '@/components/drawer/drawer';
+import Music from '@/components/music-anim/music-anim';
 export  default function JsPage () {
   return (
     <div className={styles.container}>
@@ -220,7 +221,7 @@ export  default function JsPage () {
     </div>
         
       </article>
-        <p className={styles.footerTitle}>NazDev corporation</p>
+       <Music/>
   </div>
        
   

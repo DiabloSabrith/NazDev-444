@@ -3,6 +3,7 @@ import styles from "./page.module.scss";
 import Link from 'next/link' 
 import Image from 'next/image' 
 import  Drawer  from "../components/drawer/drawer";
+import  DevBlock  from "../components/hover-block/hoverBlock";
 import Circles from "@/components/circles-anim/circles-anim"
 import React from "react";
 
@@ -83,7 +84,10 @@ export default function Home() {
         </section>
 
           <footer className={styles.footer}>
-         <div className={styles.itemFooter}>
+
+            {/* TODO */}
+            <div className={styles.footerItem_Block}>
+          <div className={styles.itemFooter}>
           <p>Java script</p>
           <button className={styles.footerBtn}><Link href="/js">
           <Image
@@ -123,6 +127,11 @@ export default function Home() {
             alt="sorry"
             />
             </Link></button>
+        </div>
+        </div>
+        {/* TODO */}
+        <div className={styles.footerHowerBlock}>
+          <DevBlock/>
         </div>
         </footer>
 

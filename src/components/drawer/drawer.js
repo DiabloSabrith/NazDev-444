@@ -42,6 +42,7 @@ const DrawerItem= () => {
                    <div className={styles.item} ><Link className={styles.a} href="/css">CSS</Link></div>
                    <div className={styles.item} ><Link className={styles.a} href="/react">React</Link></div>
                    <div className={styles.item} ><Link className={styles.a} href='/support'>Поддержка</Link></div>
+                   <li className={styles.item}><Link className ={styles.a} href="/chat-ai">Naz AI</Link></li>
                    <div className={styles.item} ><Link className={styles.a} href='https://t.me/Kulturist_ris'>Наше сообщество</Link></div>
 
               </div>

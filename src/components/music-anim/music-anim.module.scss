@@ -1,0 +1,37 @@
+.musicBg {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #111;
+  
+    .musicCircle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: 300px;
+      width: 300px;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(138, 43, 226, 0.4), transparent 70%);
+      transition: transform 100ms;
+    }
+  
+    .musicContent {
+      position: relative;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      color: white;
+  
+      h1 {
+        font-size: 1.875rem; // Tailwind's text-3xl
+        font-weight: bold;
+        text-align: center;
+        padding: 0 1rem;
+      }
+    }
+  }
+  

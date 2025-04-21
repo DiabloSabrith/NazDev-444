@@ -211,7 +211,7 @@ export  default function JsPage () {
     </div>
         
       </article>
-        <p className={styles.footerTitle}>NazDev corporation</p>
+    
         
    </div>
   )
