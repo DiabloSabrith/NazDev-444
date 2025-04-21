@@ -1,4 +1,4 @@
-import  "./HoverBlock.scss"
+import  "./hoverBlock.scss"
 
 export default function HoverBlock(){
      return(
