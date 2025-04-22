@@ -32,8 +32,8 @@ export  default function JsPage () {
                height={50}
                alt="Loading..."
              />
-             <h3 className={styles.h3}>Введение в React </h3>
-           <Link className={styles.a} href="/react/introduction">Начать </Link>
+
+             <h3 className={styles.h3}>Введение в React ⚛️</h3>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -41,20 +41,21 @@ export  default function JsPage () {
                   alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
-                   <li>Примеры</li>
+                   <li>Что такое React</li>
+                   <li>Преимущества React</li>
                    <li>Видеоролик</li>
-                   <li>Тест</li>
+           <Link className={styles.a} href="/react/introduction">Начать </Link>
 
                </ul>
            </div>
-           <div className={styles.overlay}>
-               <ul>
-                   <li>Что такое React</li>
-                   <li>Преимущества React</li>
-                   <li>Установка  </li>
-                   <li>Настройка</li>
-               </ul>
-           </div>
+         {/*   <div className={styles.overlay}> */}
+         {/*       <ul> */}
+         {/*           <li>Что такое React</li> */}
+         {/*           <li>Преимущества React</li> */}
+         {/*           <li>Установка  </li> */}
+         {/*           <li>Настройка</li> */}
+         {/*       </ul> */}
+         {/*   </div> */}
        </div>
        <div className={styles.item}>
           <Image
@@ -64,8 +65,7 @@ export  default function JsPage () {
            height={50}
            alt="Loading..."
          />
-         <h3 className={styles.h3}>Основы JSX </h3>
-           <Link className={styles.a} href="/react/jsx">Начать </Link>
+         <h3 className={styles.h3}>Основы JSX 🔤 </h3>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -73,17 +73,19 @@ export  default function JsPage () {
                   alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
-                   <li>Примеры</li>
+                   <li>Что такое JSX</li>
+                   <li>camelCase</li>
                    <li>Видеоролик</li>
+           <Link className={styles.a} href="/react/jsx">Начать </Link>
 
                </ul>
            </div>
-           <div className={styles.overlay}>
-               <ul>
-                   <li>Что такое JSX</li>
-                   <li>camelCase</li>
-               </ul>
-           </div>
+          {/*  <div className={styles.overlay}> */}
+          {/*      <ul> */}
+          {/*          <li>Что такое JSX</li> */}
+          {/*          <li>camelCase</li> */}
+          {/*      </ul> */}
+          {/*  </div> */}
         </div>
         <div className={styles.item}>
     <Image
@@ -93,8 +95,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Компоненты</h3>
-            <Link className={styles.a} href="/react/components">Начать </Link>
+   <h3 className={styles.h3}>Компоненты 🧩</h3>
             <Image className={styles.spanLow}
                    src="/img/medium.png"
                    height={30}
@@ -102,18 +103,21 @@ export  default function JsPage () {
                    alt="Loading..."/>
             <div className={styles.overlay_right}>
                 <ul>
-                    <li>Примеры</li>
-                    <li>Видеоролик</li>
-
-                </ul>
-            </div>
-            <div className={styles.overlay}>
-                <ul>
                     <li>Компонент</li>
                     <li>Типы компонентов</li>
                     <li>Props </li>
+                    <li>Видеоролик</li>
+            <Link className={styles.a} href="/react/components">Начать </Link>
+
                 </ul>
             </div>
+           {/*  <div className={styles.overlay}> */}
+           {/*      <ul> */}
+           {/*          <li>Компонент</li> */}
+           {/*          <li>Типы компонентов</li> */}
+           {/*          <li>Props </li> */}
+           {/*      </ul> */}
+           {/*  </div> */}
    </div>
    <div className={styles.item}>
     <Image
@@ -123,8 +127,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>State</h3>
-       <Link className={styles.a} href="/react/state">Начать </Link>
+   <h3 className={styles.h3}>State 🧠</h3>
        <Image className={styles.spanLow}
               src="/img/medium.png"
               height={30}
@@ -132,18 +135,20 @@ export  default function JsPage () {
               alt="Loading..."/>
        <div className={styles.overlay_right}>
            <ul>
-               <li>Примеры</li>
+               <li>Что такое state</li>
+               <li>Хук useState</li>
                <li>Видеоролик</li>
+       <Link className={styles.a} href="/react/state">Начать </Link>
 
            </ul>
        </div>
-       <div className={styles.overlay}>
-           <ul>
-               <li>Что такое state</li>
-               <li>Хук useState</li>
-               <li>Props </li>
-           </ul>
-       </div>
+    {/*    <div className={styles.overlay}> */}
+    {/*        <ul> */}
+    {/*            <li>Что такое state</li> */}
+    {/*            <li>Хук useState</li> */}
+    {/*            <li>Props </li> */}
+    {/*        </ul> */}
+    {/*    </div> */}
    </div>
    <div className={styles.item}>
     <Image
@@ -153,28 +158,29 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Обработка событий</h3>
-       <Link className={styles.a} href="/react/events">Начать </Link>
+   <h3 className={styles.h3}>Обработка событий ⚡</h3>
        <Image className={styles.spanLow}
               src="/img/hard.png"
               height={30}
               width={30}
               alt="Loading..."/>
        <div className={styles.overlay_right}>
-           <ul>
-               <li>Примеры</li>
-               <li>Видеоролик</li>
-               <li>Тест</li>
-
-           </ul>
-       </div>
-       <div className={styles.overlay}>
            <ul>
                <li>onClick</li>
                <li>onChange</li>
                <li>onSubmit </li>
+               <li>Видеоролик</li>
+       <Link className={styles.a} href="/react/events">Начать </Link>
+
            </ul>
        </div>
+     {/*   <div className={styles.overlay}> */}
+     {/*       <ul> */}
+     {/*           <li>onClick</li> */}
+     {/*           <li>onChange</li> */}
+     {/*           <li>onSubmit </li> */}
+     {/*       </ul> */}
+     {/*   </div> */}
    </div>
    <div className={styles.item}>
     <Image
@@ -184,8 +190,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Routing</h3>
-       <Link className={styles.a} href="/react/routing">Начать </Link>
+   <h3 className={styles.h3}>Routing ➡️</h3>
        <Image className={styles.spanLow}
               src="/img/hard.png"
               height={30}
@@ -193,19 +198,22 @@ export  default function JsPage () {
               alt="Loading..."/>
        <div className={styles.overlay_right}>
            <ul>
-               <li>Примеры</li>
-               <li>Видеоролик</li>
-               <li>Тест</li>
-
-           </ul>
-       </div>
-       <div className={styles.overlay}>
-           <ul>
                <li>Что такое роутинг</li>
                <li>React Router </li>
                <li>Link</li>
+               <li>Видеоролик</li>
+              
+       <Link className={styles.a} href="/react/routing">Начать </Link>
+
            </ul>
        </div>
+      {/*  <div className={styles.overlay}> */}
+      {/*      <ul> */}
+      {/*          <li>Что такое роутинг</li> */}
+      {/*          <li>React Router </li> */}
+      {/*          <li>Link</li> */}
+      {/*      </ul> */}
+      {/*  </div> */}
    </div>
 
     </div>

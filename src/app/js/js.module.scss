@@ -27,7 +27,7 @@
     padding: 50px 50px ;
     font-size: 40px;
     letter-spacing: 2px;
-    font-weight:500;
+    font-weight:500; 
   }
   .a{
     font-size: 22px;
@@ -55,6 +55,7 @@
     border-radius: 20px;
   }
   .item:hover .a{
+
     color: #fff;
     background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
     box-shadow: 0 10px 25px 0 rgba(49, 196, 190, 0.75);
@@ -62,8 +63,24 @@
     padding: 3px 25px;
     border-radius: 5px;
     letter-spacing: 1px;
+    margin-top: 15px;             
   }
+  .item:hover .dev_Mode{
+    color: #fff;
+    background-image: linear-gradient(to right, #da1c65, #e21e80, #ec2424, #e4429b);
+    box-shadow: 0 5px 25px 0 rgba(218, 59, 120, 0.75);
+    transition: all .4s ease-in-out;
+    padding: 6px 25px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500 ;
+  }
+   
+  
   .item{
+    overflow: hidden;
     position: relative;
     border-radius: 20px;
     background-color: rgb(138, 43, 226,0.1);
@@ -71,56 +88,42 @@
     border-radius: 20px;    
     width:45%;
     height: 25%;
-    padding-top: 40px;
+    padding-top: 60px;
     text-align: center;
     margin-left: 40px;
     margin-bottom: 30px;
     .a{
       color: #30dd8a;
+      display: block;
     }
-    
-    .overlay{
-      position: absolute; /* Абсолютное позиционирование относительно родителя */
-      top: 0;             /* Привязываем к верху */
-      left: 0;        /* Помещаем слева от родителя, учитывая ширину */
-      width: 70%;       /* Ширина overlay (должна совпадать с шириной item) */
-      height: 100%;       /* Занимает всю высоту item */
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;           /* Изначально делаем невидимым */
-      transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
-      z-index: 1; /* Гарантирует, что оверлей будет выше item */
-      border-radius: 20px;
-      li{
-        position: relative;
-        list-style-type: none;
-        font-size: 20px;
-        line-height: 40px;
-        color: #ffff;
-      }
-    }
+
     .overlay_right{
       position: absolute; /* Абсолютное позиционирование относительно родителя */
-      top: 0;             /* Привязываем к верху */
-      left: 0;        /* Помещаем слева от родителя, учитывая ширину */
-      width: 70%;       /* Ширина overlay (должна совпадать с шириной item) */
+      top: 100%;             /* Привязываем к верху */
+      left:0;        /* Помещаем слева от родителя, учитывая ширину */
+      width: 100%;       /* Ширина overlay (должна совпадать с шириной item) */
       height: 100%;       /* Занимает всю высоту item */
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color:  rgb(138, 43, 226,0.8);
       color: white;
       display: flex;
       justify-content: center;
       align-items: center;
       opacity: 0;           /* Изначально делаем невидимым */
-      transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
+      transition: left 0.4s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
       z-index: 1; /* Гарантирует, что оверлей будет выше item */
       border-radius: 20px;
+      .dev_Mode{
+     color: #fff;
+        }
+      ul{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+      }
       li{
         list-style-type: none;
         font-size: 20px;
-        line-height: 40px;
+        line-height: 30px;
         color: #ffff;
       }
     }
@@ -138,22 +141,26 @@
     left: -72%;             /* При наведении выплывает к родителю */
     opacity: 1;
   }
-.item:hover .overlay_right{
-  left: 102%;             /* При наведении выплывает к родителю */
-  opacity: 1;
-}
-  .h3{
-    font-weight: 500;
-    font-size: 25px;
-    padding:10px 20px;
-    padding-bottom: 25px;
-  }
-  .item:hover{
-    background-color: rgb(138, 43, 226);
-    transition: all 0.3s ease-in-out;
-    border:blueviolet;
-    transform:scale(1.05)
-  }
+   .item:hover .overlay_right{
+    left: 0%; 
+    top: 0%;            /* При наведении выплывает к родителю */
+    opacity: 1;
+    }
+    .h3{
+      font-weight: 500;
+      font-size: 25px;
+      padding:10px 20px;
+      padding-bottom: 25px;
+    }
+    .item:hover{
+      h3,img,.temporarily{
+        display: none;
+      }
+      background-color:transparent;
+      transition: all 0.6s ease-in-out;
+      border:none;
+      transform:scale(1.05)
+    }
 .temporarily{
   font-size: 25px;
   color:red;

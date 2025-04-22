@@ -13,7 +13,7 @@ export default function MusicReactiveBackground() {
     body.style.backgroundPosition = "center";
     body.style.transformOrigin = "50% 50%";
     body.style.transition = "background-image 0.3s ease"; // убрали transform
-    body.style.backgroundImage = `radial-gradient(circle at center, rgba(138, 43, 226, 0.5), transparent 70%)`;
+    body.style.backgroundImage = `radial-gradient(circle at center, rgba(138, 43, 226, 0.3), transparent 70%)`;
 
     navigator.mediaDevices
       .getUserMedia({ audio: true })

@@ -18,7 +18,7 @@ export  default function JsPage () {
                   <li className={styles.li}><Link className ={styles.a} href="/chat-ai">Naz AI</Link></li>
              </ul>
     </header>
-    <Drawer/>
+    <Drawer/> 
       <article className={styles.main}>
         
     <h2 className={styles.h2} >Основные темы </h2>
@@ -31,8 +31,8 @@ export  default function JsPage () {
                height={50}
                alt="Loading..."
              />
-             <h3 className={styles.h3}>Введение в HTML</h3>
-           <Link className={styles.a} href="/html/introduction">Начать </Link>
+             <h3 className={styles.h3}>Введение в HTML 	🧱</h3>
+          
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -40,20 +40,20 @@ export  default function JsPage () {
                   alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
-                   <li>Примеры</li>
+                   <li>Что такое HTML?</li>
+                   <li>Теги, Атрибуты</li>
                    <li>Видеоролик</li>
-                   <li>Тест</li>
-
+                   <Link className={styles.a} href="/html/introduction">Начать </Link>
                </ul>
            </div>
-           <div className={styles.overlay}>
-               <ul>
-                   <li>Что такое HTML</li>
-                   <li>Структура HTML-документа</li>
-                   <li>Теги </li>
-                   <li>Атрибуты </li>
-               </ul>
-           </div>
+          {/*  <div className={styles.overlay}> */}
+          {/*      <ul> */}
+          {/*          <li>Что такое HTML</li> */}
+          {/*          <li>Структура HTML-документа</li> */}
+          {/*          <li>Теги </li> */}
+          {/*          <li>Атрибуты </li> */}
+          {/*      </ul> */}
+          {/*  </div> */}
        </div>
        <div className={styles.item}>
           <Image
@@ -63,8 +63,8 @@ export  default function JsPage () {
            height={50}
            alt="Loading..."
          />
-         <h3 className={styles.h3}>Ссылки</h3>
-           <Link className={styles.a} href="/html/links">Начать </Link>
+         <h3 className={styles.h3}>Ссылки 	🔗</h3>
+     
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -72,19 +72,19 @@ export  default function JsPage () {
                   alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
-                   <li>Примеры</li>
+                   <li>Как работают ссылки?</li>
+                   <li>Какие бывают?</li>
                    <li>Видеоролик</li>
-                   <li>Тест</li>
-
+                   <Link className={styles.a} href="/html/links">Начать </Link> 
                </ul>
            </div>
-           <div className={styles.overlay}>
-               <ul>
-                   <li>Для чего нужно</li>
-                   <li>Внешние ссылки</li>
-                   <li>Якорные ссылки</li>
-               </ul>
-           </div>
+          {/*  <div className={styles.overlay}> */}
+          {/*      <ul> */}
+          {/*          <li>Для чего нужно</li> */}
+          {/*          <li>Внешние ссылки</li> */}
+          {/*          <li>Якорные ссылки</li> */}
+          {/*      </ul> */}
+          {/*  </div> */}
         </div>
 
         <div className={styles.item}>
@@ -95,8 +95,8 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Семантическая <br/> разметка </h3>
-            <Link className={styles.a} href="/html/semantics">Начать </Link>
+   <h3 className={styles.h3}>Семантическая <br/> разметка 🧠</h3>
+          
             <Image className={styles.spanLow}
                    src="/img/medium.png"
                    height={30}
@@ -104,21 +104,21 @@ export  default function JsPage () {
                    alt="Loading..."/>
             <div className={styles.overlay_right}>
                 <ul>
-                    <li>Примеры</li>
+                    <li>Что такое семантика?</li>
+                    <li>Чем полезна?</li>
                     <li>Видеоролик</li>
-                    <li>Тест</li>
-
+                    <Link className={styles.a} href="/html/semantics">Начать </Link>
                 </ul>
             </div>
-            <div className={styles.overlay}>
-                <ul>
-                    <li>Header</li>
-                    <li>Main</li>
-                    <li>Article</li>
-                    <li>Section</li>
-                    <li>Footer</li>
-                </ul>
-            </div>
+           {/*  <div className={styles.overlay}> */}
+           {/*      <ul> */}
+           {/*          <li>Header</li> */}
+           {/*          <li>Main</li> */}
+           {/*          <li>Article</li> */}
+           {/*          <li>Section</li> */}
+           {/*          <li>Footer</li> */}
+           {/*      </ul> */}
+           {/*  </div> */}
   </div>
   <div className={styles.item}>
     <Image
@@ -128,8 +128,8 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Медиа </h3>
-      <Link className={styles.a} href="/html/media">Начать </Link>
+   <h3 className={styles.h3}>Медиа 🎥</h3>
+
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -137,20 +137,20 @@ export  default function JsPage () {
              alt="Loading..."/>
       <div className={styles.overlay_right}>
           <ul>
-              <li>Примеры</li>
+              <li>Работа с видео?</li>
+              <li>Работа с аудио?</li>
               <li>Видеоролик</li>
-              <li>Тест</li>
-
+              <Link className={styles.a} href="/html/media">Начать </Link>
           </ul>
       </div>
-      <div className={styles.overlay}>
-          <ul>
-              <li>Встраивание аудио</li>
-              <li>Встраивание видео</li>
-              <li>Iframe</li>
-              <li>Track</li>
-          </ul>
-      </div>
+     {/*  <div className={styles.overlay}> */}
+     {/*      <ul> */}
+     {/*          <li>Встраивание аудио</li> */}
+     {/*          <li>Встраивание видео</li> */}
+     {/*          <li>Iframe</li> */}
+     {/*          <li>Track</li> */}
+     {/*      </ul> */}
+     {/*  </div> */}
   </div>
   <div className={styles.item}>
     <Image
@@ -160,8 +160,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Метаданные</h3>
-      <Link className={styles.a} href="/html/metadata">Начать </Link>
+   <h3 className={styles.h3}>Метаданные 🧾</h3>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -169,20 +168,21 @@ export  default function JsPage () {
              alt="Loading..."/>
       <div className={styles.overlay_right}>
           <ul>
-              <li>Примеры</li>
+              <li> Что значит метаданные?</li>
+              <li>Метаданные для соцсетей</li>
               <li>Видеоролик</li>
-              <li>Тест</li>
+              <Link className={styles.a} href="/html/metadata">Начать </Link>
 
           </ul>
       </div>
-      <div className={styles.overlay}>
-          <ul>
-              <li>Для чего нужны</li>
-              <li>Meta и Head</li>
-              <li>Link  и Title</li>
-              <li>Style</li>
-          </ul>
-      </div>
+     {/*  <div className={styles.overlay}> */}
+     {/*      <ul> */}
+     {/*          <li>Для чего нужны</li> */}
+     {/*          <li>Meta и Head</li> */}
+     {/*          <li>Link  и Title</li> */}
+     {/*          <li>Style</li> */}
+     {/*      </ul> */}
+     {/*  </div> */}
   </div>
   <div className={styles.item}>
     <Image
@@ -192,8 +192,8 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Формы</h3>
-      <Link className={styles.a} href="/html/forms">Начать </Link>
+   <h3 className={styles.h3}>Формы 🧮</h3>
+   
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -201,19 +201,19 @@ export  default function JsPage () {
              alt="Loading..."/>
       <div className={styles.overlay_right}>
           <ul>
-              <li>Примеры</li>
+              <li>Form, Input</li>
+              <li>Label, Textarea, Select</li>
               <li>Видеоролик</li>
-              <li>Тест</li>
-
+              <Link className={styles.a} href="/html/forms">Начать </Link>
           </ul>
       </div>
-      <div className={styles.overlay}>
-          <ul>
-              <li>Тег Form</li>
-              <li>Управление формами</li>
-              <li>Атрибуты</li>
-          </ul>
-      </div>
+     {/*  <div className={styles.overlay}> */}
+     {/*      <ul> */}
+     {/*          <li>Тег Form</li> */}
+     {/*          <li>Управление формами</li> */}
+     {/*          <li>Атрибуты</li> */}
+     {/*      </ul> */}
+     {/*  </div> */}
   </div>
 
 

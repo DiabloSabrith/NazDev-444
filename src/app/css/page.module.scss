@@ -142,6 +142,7 @@
     flex-wrap: wrap;
   }
   .item{
+    overflow: hidden;
     background-color: rgb(138, 43, 226,0.1);
     box-shadow:1px 1px 3px 3px  rgb(138, 43, 226,0.6);
     border-radius: 20px;    
@@ -176,33 +177,40 @@
     }
     .overlay_right{
       position: absolute; /* Абсолютное позиционирование относительно родителя */
-      top: 0;             /* Привязываем к верху */
-      left: 0;        /* Помещаем слева от родителя, учитывая ширину */
-      width: 60%;       /* Ширина overlay (должна совпадать с шириной item) */
+      top: 100%;             /* Привязываем к верху */
+      left:0;        /* Помещаем слева от родителя, учитывая ширину */
+      width: 100%;       /* Ширина overlay (должна совпадать с шириной item) */
       height: 100%;       /* Занимает всю высоту item */
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color:  rgb(138, 43, 226,0.8);
       color: white;
       display: flex;
       justify-content: center;
       align-items: center;
       opacity: 0;           /* Изначально делаем невидимым */
-      transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
+      transition: left 0.4s ease-in-out, opacity 0.3s ease-in-out; /* Плавная анимация left и opacity */
       z-index: 1; /* Гарантирует, что оверлей будет выше item */
       border-radius: 20px;
+      ul{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+      }
       li{
         list-style-type: none;
         font-size: 20px;
-        line-height: 40px;
+        line-height: 30px;
         color: #ffff;
       }
-    }
+      } 
+
   }
 .item:hover .overlay{
   left: -62%;             /* При наведении выплывает к родителю */
   opacity: 1;
 }
 .item:hover .overlay_right{
-  left: 102%;             /* При наведении выплывает к родителю */
+  left: 0;
+  top: 0;             /* При наведении выплывает к родителю */
   opacity: 1;
 }
   .h3{
@@ -216,7 +224,10 @@
     transition: all 0.3s ease-in-out;
     border:blueviolet;
     transform:scale(1.05);
-    animation: backColorAnim linear 3s infinite
+    animation: backColorAnim linear 3s infinite;
+    h3,img{
+       display: none;
+    }
   }
   .main_TemItems:has(.item:hover) .item:not(:hover) {
     filter: blur(4px);
@@ -244,6 +255,7 @@
   padding: 3px 25px;
   border-radius: 5px;
   letter-spacing: 1px;
+  margin-top: 15px;
 
 }
 

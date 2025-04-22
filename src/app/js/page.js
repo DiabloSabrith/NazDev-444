@@ -34,8 +34,7 @@ export  default function JsPage () {
                  alt="Loading..."
                />
             
-               <h3 className={styles.h3}>Типы данных</h3>
-               <Link className={styles.a} href="/js/bigint">Начать </Link>
+               <h3 className={styles.h3}>Типы данных 📦</h3>
 
                <Image className={styles.spanLow}
                src="/img/low.png"
@@ -45,21 +44,25 @@ export  default function JsPage () {
 
              <div className={styles.overlay_right}>
                  <ul>
-                     <li>Примеры</li>
-                     <li>Видеоролик</li>
-                     <li>Тест</li>
+                     <li>String, Number</li>
+                     <li>Boolean, Array </li>
+                     <li>Undefined, Null</li>
+                     <Link className={styles.a} href="/js/bigint">Начать </Link>
 
                  </ul>
              </div>
-             <div className={styles.overlay}>
-                 <ul>
-                     <li>Переменные</li>
-                     <li>Функции</li>
-                     <li>Наследование</li>
-                     <li>Миксины</li>
-                     <li>Sass,Less</li>
-                 </ul>
-             </div>
+
+
+             {/* TODO */}
+           {/*   <div className={styles.overlay}> */}
+           {/*       <ul> */}
+           {/*           <li>Переменные</li> */}
+           {/*           <li>Функции</li> */}
+           {/*           <li>Наследование</li> */}
+           {/*           <li>Миксины</li> */}
+           {/*           <li>Sass,Less</li> */}
+           {/*       </ul> */}
+           {/*   </div> */}
          </div>
          <div className={styles.item}>
             <Image className={styles.img}
@@ -68,8 +71,8 @@ export  default function JsPage () {
              height={50}
              alt="Loading..."
            />
-           <h3  className={styles.h3}>Циклы while и for</h3>
-             <Link className={styles.a} href="/js/cycle">Начать </Link>
+           <h3  className={styles.h3}>Циклы while и for 🔁</h3>
+           
              <Image className={styles.spanLow}
                     src="/img/low.png"
                     height={30}
@@ -77,21 +80,22 @@ export  default function JsPage () {
                     alt="Loading..."/>
              <div className={styles.overlay_right}>
                  <ul>
-                     <li>Примеры</li>
+                     <li>While, For</li>
                      <li>Видеоролик</li>
-                     <li>Тест</li>
+                     <li>Примеры</li>
+                     <Link className={styles.a} href="/js/cycle">Начать </Link>
 
                  </ul>
              </div>
-             <div className={styles.overlay}>
-                 <ul>
-                     <li>Переменные</li>
-                     <li>Функции</li>
-                     <li>Наследование</li>
-                     <li>Миксины</li>
-                     <li>Sass,Less</li>
-                 </ul>
-             </div>
+           {/*   <div className={styles.overlay}> */}
+           {/*       <ul> */}
+           {/*           <li>Переменные</li> */}
+           {/*           <li>Функции</li> */}
+           {/*           <li>Наследование</li> */}
+           {/*           <li>Миксины</li> */}
+           {/*           <li>Sass,Less</li> */}
+           {/*       </ul> */}
+           {/*   </div> */}
           </div>
 
          <div className={styles.item}>
@@ -100,30 +104,30 @@ export  default function JsPage () {
               height={50}
               alt="Loading..."
             />
-            <h3  className={styles.h3}>Функции</h3>
-             <Link className={styles.a} href="/js/function">Начать </Link>
+            <h3  className={styles.h3}>Функции 🔧</h3>
+           
              <Image className={styles.spanLow}
                     src="/img/medium.png"
                     height={30}
                     width={30}
                     alt="Loading..."/>
              <div className={styles.overlay_right}>
-                 <ul>
-                     <li>Примеры</li>
-                     <li>Видеоролик</li>
-                     <li>Тест</li>
-
-                 </ul>
-             </div>
-             <div className={styles.overlay}>
-                 <ul>
-                     <li>Переменные</li>
-                     <li>Функции</li>
-                     <li>Наследование</li>
-                     <li>Миксины</li>
-                     <li>Sass,Less</li>
-                 </ul>
-             </div>
+                <ul>
+                    <li>Что такое функция</li>
+                    <li>Аргументы, Параметры </li>
+                    <li>Видеоролик</li>
+                    <Link className={styles.a} href="/js/cycle">Начать </Link>
+                </ul>
+            </div>
+            {/*  <div className={styles.overlay}> */}
+            {/*      <ul> */}
+            {/*          <li>Переменные</li> */}
+            {/*          <li>Функции</li> */}
+            {/*          <li>Наследование</li> */}
+            {/*          <li>Миксины</li> */}
+            {/*          <li>Sass,Less</li> */}
+            {/*      </ul> */}
+            {/*  </div> */}
          </div>
 
          <div className={styles.item}>
@@ -133,8 +137,8 @@ export  default function JsPage () {
              height={50}
              alt="Loading..."
            />
-           <h3  className={styles.h3}>Работа с DOM</h3>
-             <Link className={styles.a} href="/js/dom">Начать </Link>
+           <h3  className={styles.h3}>Работа с DOM 🕸️</h3>
+         
              <Image className={styles.spanLow}
                     src="/img/medium.png"
                     height={30}
@@ -142,21 +146,21 @@ export  default function JsPage () {
                     alt="Loading..."/>
              <div className={styles.overlay_right}>
                  <ul>
-                     <li>Примеры</li>
+                     <li>Что такое DOM </li>
                      <li>Видеоролик</li>
                      <li>Тест</li>
-
+                     <Link className={styles.a} href="/js/dom">Начать </Link>
                  </ul>
              </div>
-             <div className={styles.overlay}>
-                 <ul>
-                     <li>Переменные</li>
-                     <li>Функции</li>
-                     <li>Наследование</li>
-                     <li>Миксины</li>
-                     <li>Sass,Less</li>
-                 </ul>
-             </div>
+            {/*  <div className={styles.overlay}> */}
+            {/*      <ul> */}
+            {/*          <li>Переменные</li> */}
+            {/*          <li>Функции</li> */}
+            {/*          <li>Наследование</li> */}
+            {/*          <li>Миксины</li> */}
+            {/*          <li>Sass,Less</li> */}
+            {/*      </ul> */}
+            {/*  </div> */}
           
          </div>
          <div className={styles.item}>
@@ -166,7 +170,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Классы</h3>
+   <h3  className={styles.h3}>Классы 🏗️</h3>
    <p className={styles.temporarily}>В разработке</p>
              <Image className={styles.spanLow}
                     src="/img/medium.png"
@@ -175,21 +179,22 @@ export  default function JsPage () {
                     alt="Loading..."/>
              <div className={styles.overlay_right}>
                  <ul>
-                     <li>Примеры</li>
+                     <li>Что такое классы?</li>
+                     <li>Кострукторы</li>
                      <li>Видеоролик</li>
-                     <li>Тест</li>
-
+                     <li>Super</li>
+                     <Link className={styles.dev_Mode} href="#">Скоро </Link>
                  </ul>
              </div>
-             <div className={styles.overlay}>
-                 <ul>
-                     <li>Переменные</li>
-                     <li>Функции</li>
-                     <li>Наследование</li>
-                     <li>Миксины</li>
-                     <li>Sass,Less</li>
-                 </ul>
-             </div>
+            {/*  <div className={styles.overlay}> */}
+            {/*      <ul> */}
+            {/*          <li>Переменные</li> */}
+            {/*          <li>Функции</li> */}
+            {/*          <li>Наследование</li> */}
+            {/*          <li>Миксины</li> */}
+            {/*          <li>Sass,Less</li> */}
+            {/*      </ul> */}
+            {/*  </div> */}
  </div>
  <div className={styles.item}>
  <Image className={styles.img}
@@ -198,7 +203,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Прототипы, наследование</h3>
+   <h3  className={styles.h3}> Прототипы 🧬 </h3>
    <p className={styles.temporarily}>В разработке</p>
      <Image className={styles.spanLow}
             src="/img/medium.png"
@@ -206,23 +211,25 @@ export  default function JsPage () {
             width={30}
             alt="Loading..."/>
 
-     <div className={styles.overlay_right}>
-         <ul>
-             <li>Примеры</li>
-             <li>Видеоролик</li>
-             <li>Тест</li>
 
-         </ul>
-     </div>
-     <div className={styles.overlay}>
-         <ul>
-             <li>Переменные</li>
-             <li>Функции</li>
-             <li>Наследование</li>
-             <li>Миксины</li>
-             <li>Sass,Less</li>
-         </ul>
-     </div>
+     <div className={styles.overlay_right}>
+      <ul>
+          <li>Что такое прототипы?</li>
+          <li>Прототипное наследование</li>
+          <li>Видеоролик</li>
+          <Link className={styles.dev_Mode} href="#">Скоро </Link>
+      </ul>
+
+  </div>
+    {/*  <div className={styles.overlay}> */}
+    {/*      <ul> */}
+    {/*          <li>Переменные</li> */}
+    {/*          <li>Функции</li> */}
+    {/*          <li>Наследование</li> */}
+    {/*          <li>Миксины</li> */}
+    {/*          <li>Sass,Less</li> */}
+    {/*      </ul> */}
+    {/*  </div> */}
  </div>
 
           <div className={styles.item}>
@@ -232,30 +239,32 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Промисы, async/await</h3>
+   <h3  className={styles.h3}>Промисы, async/await ⏳</h3>
    <p className={styles.temporarily}>В разработке</p>
               <Image className={styles.spanLow}
                      src="/img/hard.png"
                      height={30}
                      width={30}
                      alt="Loading..."/>
-              <div className={styles.overlay_right}>
-                  <ul>
-                      <li>Примеры</li>
-                      <li>Видеоролик</li>
-                      <li>Тест</li>
 
-                  </ul>
-              </div>
-              <div className={styles.overlay}>
-                  <ul>
-                      <li>Переменные</li>
-                      <li>Функции</li>
-                      <li>Наследование</li>
-                      <li>Миксины</li>
-                      <li>Sass,Less</li>
-                  </ul>
-              </div>
+       <div className={styles.overlay_right}>
+             <ul>
+                 <li>Что такое промисы?</li>
+                 <li>async, await</li>
+                 <li>Видеоролик</li>
+               
+                 <Link className={styles.dev_Mode} href="#">Скоро </Link>
+             </ul>
+         </div>
+             {/*  <div className={styles.overlay}> */}
+             {/*      <ul> */}
+             {/*          <li>Переменные</li> */}
+             {/*          <li>Функции</li> */}
+             {/*          <li>Наследование</li> */}
+             {/*          <li>Миксины</li> */}
+             {/*          <li>Sass,Less</li> */}
+             {/*      </ul> */}
+             {/*  </div> */}
 
   
  </div>
@@ -267,30 +276,31 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Свойства объектов</h3>
+   <h3  className={styles.h3}>Свойства объектов 📋  </h3>
    <p className={styles.temporarily}>В разработке</p>
      <Image className={styles.spanLow}
             src="/img/hard.png"
             height={30}
             width={30}
             alt="Loading..."/>
-     <div className={styles.overlay_right}>
-         <ul>
-             <li>Примеры</li>
-             <li>Видеоролик</li>
-             <li>Тест</li>
-
-         </ul>
-     </div>
-     <div className={styles.overlay}>
-         <ul>
-             <li>Переменные</li>
-             <li>Функции</li>
-             <li>Наследование</li>
-             <li>Миксины</li>
-             <li>Sass,Less</li>
-         </ul>
-     </div>
+          <div className={styles.overlay_right}>
+       <ul>
+           <li>Что такое классы?</li>
+           <li>Кострукторы</li>
+           <li>Видеоролик</li>
+           <li>Super</li>
+           <Link className={styles.dev_Mode} href="#">Скоро </Link>
+       </ul>
+   </div>
+    {/*  <div className={styles.overlay}> */}
+    {/*      <ul> */}
+    {/*          <li>Переменные</li> */}
+    {/*          <li>Функции</li> */}
+    {/*          <li>Наследование</li> */}
+    {/*          <li>Миксины</li> */}
+    {/*          <li>Sass,Less</li> */}
+    {/*      </ul> */}
+    {/*  </div> */}
 
 
  </div>

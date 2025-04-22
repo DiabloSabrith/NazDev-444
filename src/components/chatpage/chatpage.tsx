@@ -1,4 +1,6 @@
 'use client';
+
+import Link from "next/link"
 import { useState } from 'react';
 import  styles from "./styles.module.scss"
 import Circles from "@/components/circles-anim/circles-anim"
@@ -30,6 +32,7 @@ export default function ChatPage() {
   return (
     <div className={styles.container}>
       <div className={styles.contentAi}>
+    <button className={styles.back_btn}><Link href="/">🏛️</Link></button>
         <h1 className={styles.h1}>Naz AI</h1>
         <span className={styles.span}>Это чат-бот, созданный на базе OpenRouter AI. Он поможет быстро получить ответ на ваш вопрос по курсам.</span>
         <input
@@ -44,7 +47,7 @@ export default function ChatPage() {
           onClick={handleSend}
           disabled={loading}
         >
-          {loading ? 'Отправка...' : 'Отправить'}
+          {loading ? 'Отправка...🚀 ' : 'Отправить ⌯⌲'}
         </button>
 
         {botReply && (
