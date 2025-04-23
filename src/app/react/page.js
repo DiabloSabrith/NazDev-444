@@ -41,7 +41,7 @@ export  default function JsPage () {
                   alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
-                   <li>Что такое React</li>
+                   <li>Что такое React?</li>
                    <li>Преимущества React</li>
                    <li>Видеоролик</li>
            <Link className={styles.a} href="/react/introduction">Начать </Link>
@@ -73,7 +73,7 @@ export  default function JsPage () {
                   alt="Loading..."/>
            <div className={styles.overlay_right}>
                <ul>
-                   <li>Что такое JSX</li>
+                   <li>Что такое JSX?</li>
                    <li>camelCase</li>
                    <li>Видеоролик</li>
            <Link className={styles.a} href="/react/jsx">Начать </Link>
@@ -135,7 +135,7 @@ export  default function JsPage () {
               alt="Loading..."/>
        <div className={styles.overlay_right}>
            <ul>
-               <li>Что такое state</li>
+               <li>Что такое state?</li>
                <li>Хук useState</li>
                <li>Видеоролик</li>
        <Link className={styles.a} href="/react/state">Начать </Link>
@@ -166,9 +166,9 @@ export  default function JsPage () {
               alt="Loading..."/>
        <div className={styles.overlay_right}>
            <ul>
-               <li>onClick</li>
-               <li>onChange</li>
-               <li>onSubmit </li>
+               <li>OnClick</li>
+               <li>OnChange</li>
+               <li>OnSubmit </li>
                <li>Видеоролик</li>
        <Link className={styles.a} href="/react/events">Начать </Link>
 
@@ -198,10 +198,10 @@ export  default function JsPage () {
               alt="Loading..."/>
        <div className={styles.overlay_right}>
            <ul>
-               <li>Что такое роутинг</li>
+               <li>Что такое роутинг?</li>
                <li>React Router </li>
-               <li>Link</li>
                <li>Видеоролик</li>
+               <li>Link</li>
               
        <Link className={styles.a} href="/react/routing">Начать </Link>
 

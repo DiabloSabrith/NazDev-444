@@ -81,8 +81,8 @@ export  default function JsPage () {
              <div className={styles.overlay_right}>
                  <ul>
                      <li>While, For</li>
-                     <li>Видеоролик</li>
                      <li>Примеры</li>
+                     <li>Видеоролик</li>
                      <Link className={styles.a} href="/js/cycle">Начать </Link>
 
                  </ul>
@@ -113,7 +113,7 @@ export  default function JsPage () {
                     alt="Loading..."/>
              <div className={styles.overlay_right}>
                 <ul>
-                    <li>Что такое функция</li>
+                    <li>Что такое функция?</li>
                     <li>Аргументы, Параметры </li>
                     <li>Видеоролик</li>
                     <Link className={styles.a} href="/js/cycle">Начать </Link>
@@ -146,9 +146,9 @@ export  default function JsPage () {
                     alt="Loading..."/>
              <div className={styles.overlay_right}>
                  <ul>
-                     <li>Что такое DOM </li>
+                     <li>Что такое DOM? </li>
+                     <li>Как работать с DOM?</li>
                      <li>Видеоролик</li>
-                     <li>Тест</li>
                      <Link className={styles.a} href="/js/dom">Начать </Link>
                  </ul>
              </div>
@@ -239,7 +239,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Промисы, async/await ⏳</h3>
+   <h3  className={styles.h3}>Async/Await ⏳</h3>
    <p className={styles.temporarily}>В разработке</p>
               <Image className={styles.spanLow}
                      src="/img/hard.png"

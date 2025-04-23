@@ -1,7 +1,7 @@
 .container{
   width: 1400px;
   margin: 0 auto ;
-  height: 2000px;
+  height: 100%;
   background-color:transparent;
 }
 //TODO
@@ -181,7 +181,7 @@
     left:0;        /* Помещаем слева от родителя, учитывая ширину */
     width: 100%;       /* Ширина overlay (должна совпадать с шириной item) */
     height: 100%;       /* Занимает всю высоту item */
-    background-color:  rgb(138, 43, 226,0.8);
+   background-color:  rgba(148, 51, 235, 0.8);
     color: white;
     display: flex;
     justify-content: center;

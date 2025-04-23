@@ -55,8 +55,7 @@
             margin-top: 10px;
         }
         .input::placeholder{
-            color: #e2d8d8b6;
-            color: red;
+            color: #e9e3e3b6;
             font-size: 19px;
         }
         .input:hover{
@@ -92,7 +91,9 @@
         .span{
             text-shadow: 0 0 6px rgba(255, 255, 255, .8); 
             text-align: center;
-            padding: 5px 70px ;
+            padding-left: 70px;
+            padding-right: 70px;
+            padding-bottom: 15px;
         }
     }
     .contentAi:hover{
@@ -107,6 +108,13 @@
         background-color:transparent;
         .contentAi{
             width: 90%;
+            .h1{
+                font-size: 11vw;
+                padding-bottom: 10px;
+            }
+            .span{
+                padding-bottom:5px;
+            }
             .input{
                 width: 70%;
             }
