@@ -24,6 +24,7 @@ export  default function JsPage () {
                      />
                 </h4>
                 <span className={styles.span}>Я делал этот сайт с мыслями о тебе. Даже не зная тебя</span>
+                <button className={styles.back_btn}><Link href="/">❮❮</Link></button>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

@@ -25,6 +25,7 @@ export  default function JsPage () {
                         />
                    </h4>
                    <span className={styles.span}>Никаких подписок. Только ты, знания и этот дерзкий дизайн</span>
+                   <button className={styles.back_btn}><Link href="/">❮❮</Link></button>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

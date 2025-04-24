@@ -24,6 +24,7 @@ export  default function JsPage () {
                         />
                    </h4>
                    <span className={styles.span}>  <span className={styles.span}>Создан не корпорацией — создан мечтой 17-летнего</span></span>
+                   <button className={styles.back_btn}><Link href="/">❮❮</Link></button>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

@@ -24,13 +24,12 @@ export  default function JsPage () {
                      />
                 </h4>
                 <span className={styles.span}>Учись бесплатно. Плати только вниманием (и иногда интернетом)</span>
-
+                <button className={styles.back_btn}><Link href="/">❮❮</Link></button>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>
 
                 <div className={styles.cursItemBlock}>
-
                     <div className={styles.cursItem}>
                         <h3>Циклы while и for</h3>
                         <p>Не пройди мимо!</p>

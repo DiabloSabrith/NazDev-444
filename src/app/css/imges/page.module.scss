@@ -21,6 +21,7 @@ $br:20px;
   }
   .wrapper {
     width: 90%;
+    position: relative;
     height: 1000px;
     background-color: rgb(138, 43, 226,0.1);
     box-shadow: 2px 1px 10px rgb(138, 43, 226,0.3);
@@ -29,6 +30,24 @@ $br:20px;
      align-items: center;
      flex-direction: column;
      gap: 20px;
+     .back_btn{
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgb(138, 43, 226,0.4);
+      box-shadow:1px 1px 3px 1px  rgb(138, 43, 226,0.6);
+      border: none;
+      padding:7px 15px;
+      font-size: 18px;
+      margin-top: 20px;
+      border-radius: 5px;
+     margin-left: 40px;
+        }   
+     .back_btn:hover{
+      transition: all 0.3s ease;
+      transform: scale(1.05);
+      background-color: rgb(138, 43, 226,0.8);
+      }
     h4{
       font-size: 25px;
       padding-top: 20px;
@@ -88,6 +107,11 @@ $br:20px;
       .btn:hover{
         transform: scale(1.05);
       }
+    }
+    .cursItem:hover{
+      transition: all 0.3s ease;
+      transform: scale(1.05);
+      background-color: rgb(138, 43, 226,0.3);
     }
   }
 }

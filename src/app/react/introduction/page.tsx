@@ -24,6 +24,7 @@ export  default function JsPage () {
                      />
                 </h4>
                 <span className={styles.span}>Если бы я получал по рублю за каждую ошибку, у меня уже был бы сервер получше</span>
+                <button className={styles.back_btn}><Link href="/">❮❮</Link></button>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

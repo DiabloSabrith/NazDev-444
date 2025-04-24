@@ -24,7 +24,7 @@ export  default function JsPage () {
                      />
                 </h4>
                 <span className={styles.span}>JSX — это не магия. Это просто HTML, который решил быть стильным</span>
-
+                <button className={styles.back_btn}><Link href="/">❮❮</Link></button>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

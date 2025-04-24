@@ -33,8 +33,6 @@ body {
   transition: background-image 0.3s ease, transform 0.2s ease;
 }
 
-
-
 @keyframes pulseBackground {
   0% {
     background-size: 100% 100%;

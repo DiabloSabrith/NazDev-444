@@ -24,6 +24,7 @@ export  default function JsPage () {
                      />
                 </h4>
                 <span className={styles.span}>Ты не просто попал на сайт. Ты попал в движение</span>
+                <button className={styles.back_btn}><Link href="/">❮❮</Link></button>
                 <div className={styles.videoBlock}>
                     <WarningVideo/>
                 </div>

@@ -24,6 +24,7 @@ export  default function JsPage () {
                      />
                 </h4>
                 <span className={styles.span}>  Я сделал эту платформу, потому что когда-то сам искал такую. Теперь она — для тебя</span>
+                <button className={styles.back_btn}><Link href="/">❮❮</Link></button>
 
                 <div className={styles.videoBlock}>
                     <WarningVideo/>

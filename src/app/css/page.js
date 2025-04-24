@@ -1,10 +1,13 @@
 'use client'
+import{CssSeoData} from "../../../public/cssMetaData"  // Путь на два уровня выше
+ // Используйте правильный путь
 import React from 'react'
 import styles from "./page.module.scss"
 import Image from "next/image"
 import Link from "next/link";
 import Drawer from '@/components/drawer/drawer';
 export  default function JsPage () {
+  const metaData = CssSeoData["/css"]
   return (
     <div className={styles.container}>
     <header className={styles.header}>
