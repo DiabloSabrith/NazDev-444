@@ -11,6 +11,11 @@
     height: 120px; 
     display: flex;
     justify-content: space-between;
+    .a:hover{
+      color: blueviolet;
+      transition: all 0.3s ease-in;
+    }
+    
   }
   .ul{
     margin-right: 100px;

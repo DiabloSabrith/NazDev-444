@@ -21,6 +21,7 @@ export default function Home() {
             <li className={styles.li}><Link className ={styles.a} href="/react">React</Link></li>
              <li className={styles.li}><Link className ={styles.a} href="/react">Поддержка</Link></li>
              <li className={styles.li}><Link className ={styles.a} href="/chat-ai">Naz AI</Link></li>
+             <li className={styles.li}><Link className ={styles.a} href="/chat-ai">NazDevLite💬</Link></li>
           </ul>
       </header>
     <Drawer/>

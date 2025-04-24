@@ -89,6 +89,11 @@ $br:20px;
         transform: scale(1.05);
       }
     }
+    .cursItem:hover{
+      transition: all 0.3s ease;
+      transform: scale(1.05);
+      background-color: rgb(138, 43, 226,0.3);
+    }
   }
 }
 }
