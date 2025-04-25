@@ -11,6 +11,11 @@
     width: 100%;
     background-color: transparent;
     height: auto;
+    .item:hover{
+      h3,img{
+        visibility: visible;
+      }
+    }
     .header{
       width: 100%;
       height: auto;
@@ -225,7 +230,7 @@
   border:blueviolet;
   transform:scale(1.05);
   h3,img{
-    display: none;
+    visibility: hidden;
   }
 }
 .main_TemItems:has(.item:hover) .item:not(:hover) {

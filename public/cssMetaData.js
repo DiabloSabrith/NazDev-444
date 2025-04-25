@@ -101,4 +101,9 @@ import { title } from "process";
             description:"Освой маршрутизацию с React Router и научись создавать многостраничные приложения с плавным переходом между экранами."
         },    
 
+        /* TODO SUPPORT PAGE */
+        
+
+        /* TODO NAZ AI*/
+
     }

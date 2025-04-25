@@ -11,7 +11,6 @@ export  default function JsPage () {
       <header className={styles.header}>
             
             <h1 className={styles.title}>Java script</h1>
-
                 <ul className={styles.ul}>
                  <li className={styles.li}><a className ={styles.a} href="/html">HTML</a></li>
                  <li className={styles.li}><a className ={styles.a} href="/css">CSS</a></li>
@@ -35,8 +34,8 @@ export  default function JsPage () {
                  alt="Loading..."
                />
             
-               <h3 className={styles.h3}>Типы данных 📦</h3>
-
+               <h3 className={styles.h3}>Типы данных</h3>
+               <Link className={styles.mobile_btn} href="/js/bigint">Начать </Link>
                <Image className={styles.spanLow}
                src="/img/low.png"
                height={30}
@@ -72,7 +71,7 @@ export  default function JsPage () {
              height={50}
              alt="Loading..."
            />
-           <h3  className={styles.h3}>Циклы while и for 🔁</h3>
+           <h3  className={styles.h3}>Циклы while и for</h3>
            
              <Image className={styles.spanLow}
                     src="/img/low.png"
@@ -105,7 +104,7 @@ export  default function JsPage () {
               height={50}
               alt="Loading..."
             />
-            <h3  className={styles.h3}>Функции 🔧</h3>
+            <h3  className={styles.h3}>Функции </h3>
            
              <Image className={styles.spanLow}
                     src="/img/medium.png"
@@ -138,7 +137,7 @@ export  default function JsPage () {
              height={50}
              alt="Loading..."
            />
-           <h3  className={styles.h3}>Работа с DOM 🕸️</h3>
+           <h3  className={styles.h3}>Работа с DOM </h3>
          
              <Image className={styles.spanLow}
                     src="/img/medium.png"
@@ -171,7 +170,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Классы 🏗️</h3>
+   <h3  className={styles.h3}>Классы </h3>
    <p className={styles.temporarily}>В разработке</p>
              <Image className={styles.spanLow}
                     src="/img/medium.png"
@@ -204,13 +203,13 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}> Прототипы 🧬 </h3>
+   <h3  className={styles.h3}> Прототипы  </h3>
    <p className={styles.temporarily}>В разработке</p>
      <Image className={styles.spanLow}
             src="/img/medium.png"
             height={30}
             width={30}
-            alt="Loading..."/>
+            alt="Loading..."/>  
 
 
      <div className={styles.overlay_right}>
@@ -240,7 +239,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Async/Await ⏳</h3>
+   <h3  className={styles.h3}>Async/Await </h3>
    <p className={styles.temporarily}>В разработке</p>
               <Image className={styles.spanLow}
                      src="/img/hard.png"
@@ -277,7 +276,7 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3  className={styles.h3}>Свойства объектов 📋  </h3>
+   <h3  className={styles.h3}>Свойства объектов   </h3>
    <p className={styles.temporarily}>В разработке</p>
      <Image className={styles.spanLow}
             src="/img/hard.png"

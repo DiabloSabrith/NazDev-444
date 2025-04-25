@@ -32,8 +32,8 @@ export  default function JsPage () {
                height={50}
                alt="Loading..."
              />
-             <h3 className={styles.h3}>Введение в HTML 	🧱</h3>
-          
+             <h3 className={styles.h3}>Введение в HTML 🧱</h3>
+             <Link className={styles.a} href="/html/introduction">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -65,6 +65,7 @@ export  default function JsPage () {
            alt="Loading..."
          />
          <h3 className={styles.h3}>Ссылки 	🔗</h3>
+         <Link className={styles.a} href="/html/links">Начать </Link> 
      
            <Image className={styles.spanLow}
                   src="/img/low.png"
