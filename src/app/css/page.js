@@ -36,7 +36,8 @@ export  default function JsPage () {
                height={50}
                alt="Loading..."
              />
-             <h3 className={styles.h3}>Селекторы 🎯</h3>
+             <h3 className={styles.h3}>Селекторы </h3>
+             <Link className={styles.mobile_btn} href="/css/selectors">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -72,7 +73,8 @@ export  default function JsPage () {
            height={50}
            alt="Loading..."
          />
-         <h3 className={styles.h3}>Позиционирование	📐</h3>
+         <h3 className={styles.h3}>Позиционирование	</h3>
+         <Link className={styles.mobile_btn} href="/css/positions">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/low.png"
                   height={30}
@@ -107,7 +109,8 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Работа <br/>с изображениями 🖼️</h3>
+   <h3 className={styles.h3}>Работа <br/>с изображениями </h3>
+     <Link className={styles.mobile_btn} href="/css/imges">Начать </Link>
             <Image className={styles.spanLow}
                    src="/img/medium.png"
                    height={30}
@@ -140,7 +143,8 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Основы адаптивного дизайна 📱</h3>
+   <h3 className={styles.h3}>Основы адаптивного дизайна </h3>
+   <Link className={styles.mobile_btn} href="/css/adaptivs">Начать </Link>
       <div className={styles.overlay_right}>
           <ul>
               <li>Медиа-запросы </li>
@@ -174,7 +178,8 @@ export  default function JsPage () {
    />
 
 
-   <h3 className={styles.h3}>Flexbox ↔️</h3>
+   <h3 className={styles.h3}>Flexbox </h3>
+   <Link className={styles.mobile_btn} href="/css/flex">Начать </Link>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -206,7 +211,8 @@ export  default function JsPage () {
      height={50}
      alt="Loading..."
    />
-   <h3 className={styles.h3}>Трансформации <br/>и переходы 🌈</h3>
+   <h3 className={styles.h3}>Трансформации <br/>и переходы </h3>
+   <Link className={styles.mobile_btn} href="/css//transforms">Начать </Link>
       <Image className={styles.spanLow}
              src="/img/medium.png"
              height={30}
@@ -241,7 +247,8 @@ export  default function JsPage () {
             height={50}
             alt="Loading..."
           />
-          <h3 className={styles.h3}>Анимации ✨</h3>
+          <h3 className={styles.h3}>Анимации </h3>
+          <Link className={styles.mobile_btn} href="/css/animation">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/medium.png"
                   height={30}
@@ -275,7 +282,8 @@ export  default function JsPage () {
            height={50}
            alt="Loading..."
          />
-         <h3 className={styles.h3}>Препроцессоры ⚙️</h3>
+         <h3 className={styles.h3}>Препроцессоры </h3>
+         <Link className={styles.mobile_btn} href="/css/preprocessors">Начать </Link>
            <Image className={styles.spanLow}
                   src="/img/hard.png"
                   height={30}

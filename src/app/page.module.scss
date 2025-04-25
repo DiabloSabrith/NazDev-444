@@ -202,19 +202,23 @@
       justify-content: center;
       gap:50px;
       background-color: transparent;
-      .itemFooter{
-        width: 70%;
+      .footerItem_Block{
         display: flex;
         flex-direction: column;
-        height: 30%;
-        border:1px solid blueviolet;
-        border-radius: 20px;
-        animation: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        p{
-          padding-top: 0px;
+        .itemFooter{
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          height: 30%;
+          border:1px solid blueviolet;
+          border-radius: 20px;
+          animation: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p{
+            padding-top: 0px;
+          }
         }
       }
       .itemFooter_Down:hover{
