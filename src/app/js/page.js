@@ -72,6 +72,7 @@ export  default function JsPage () {
              alt="Loading..."
            />
            <h3  className={styles.h3}>Циклы while и for</h3>
+           <Link className={styles.mobile_btn} href="/js/cycle">Начать </Link>
            
              <Image className={styles.spanLow}
                     src="/img/low.png"
@@ -105,6 +106,7 @@ export  default function JsPage () {
               alt="Loading..."
             />
             <h3  className={styles.h3}>Функции </h3>
+            <Link className={styles.mobile_btn} href="/js/function">Начать </Link>
            
              <Image className={styles.spanLow}
                     src="/img/medium.png"
@@ -116,7 +118,7 @@ export  default function JsPage () {
                     <li>Что такое функция?</li>
                     <li>Аргументы, Параметры </li>
                     <li>Видеоролик</li>
-                    <Link className={styles.a} href="/js/cycle">Начать </Link>
+                    <Link className={styles.a} href="/js/function">Начать </Link>
                 </ul>
             </div>
             {/*  <div className={styles.overlay}> */}
@@ -138,6 +140,7 @@ export  default function JsPage () {
              alt="Loading..."
            />
            <h3  className={styles.h3}>Работа с DOM </h3>
+           <Link className={styles.mobile_btn} href="/js/dom">Начать </Link>
          
              <Image className={styles.spanLow}
                     src="/img/medium.png"
