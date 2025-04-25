@@ -4,92 +4,6 @@
     height: 100%;
     background-color:transparent;
   }
-  //TODO
-  @media (min-width:320px) and (max-width:475px){
-    .container{
-      width: 100%;
-      background-color: transparent;
-      height: auto;
-      .item:hover{
-        background-color: rgb(138, 43, 226);
-        transition: all 0.3s ease-in-out;
-        border:blueviolet;
-        transform:scale(1.05);
-        animation: none;
-      }
-      .main_TemItems:has(.item:hover) .item:not(:hover) {
-        filter: blur(0px);
-      }
-
-      .header{
-        width: 100%;
-        height: auto;
-        background-color: transparent;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        display: none;
-        .ul{
-          order:0;
-          margin-right: 0;
-          .li{
-            padding-left: 3vw;
-          }
-        }
-        .title{
-          padding: 0;
-          order:1;
-          font-size: 7vw;
-        }
-        .a{
-          font-size: 5vw;
-        }
-           }
-       }
-     .main{
-      flex-direction: column;
-      height:auto;
-      width: 100%;
-      background-color: transparent;
-      .h2{
-        padding: 2%;
-        font-size: 5vw;
-      }
-      .main_TemItems{
-        height:auto;
-        background-color: transparent;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-        justify-content: center;
-        .item{
-          width: 90%;
-          box-shadow: none;
-          border-radius: 20px;    
-          background-color:transparent;
-          margin: 0;
-          height: 20%;
-          padding-bottom: 5%;
-          .overlay{
-            display: none;
-          }
-          .overlay_right{
-            display: none;
-          }
-        }
-        .item:hover{
-        background-image: none;
-        }
-      }
-         }
-     .footerTitle{
-      display: none;
-         }
-  }
-  //TODO
 .img{
   border-radius: 20px;
   margin-top: 20px;
@@ -285,4 +199,90 @@
   text-align: center;
   letter-spacing: 2px;
   font-size: 25px;
+}
+
+//TODO
+
+@media (min-width:320px) and (max-width:475px){
+  .container{
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    .item:hover{
+      background-color: rgb(138, 43, 226);
+      transition: all 0.3s ease-in-out;
+      border:blueviolet;
+      transform:scale(1.05);
+      animation: none;
+    }
+    .main_TemItems:has(.item:hover) .item:not(:hover) {
+      filter: blur(0px);
+    }
+    .header{
+      width: 100%;
+      height: auto;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      display: none;
+      .ul{
+        order:0;
+        margin-right: 0;
+        .li{
+          padding-left: 3vw;
+        }
+      }
+      .title{
+        padding: 0;
+        order:1;
+        font-size: 7vw;
+      }
+      .a{
+        font-size: 5vw;
+      }
+         }
+     }
+   .main{
+    flex-direction: column;
+      height: auto;
+    width: 100%;
+    background-color: transparent;
+    .h2{
+      padding: 2%;
+      font-size: 5vw;
+    }
+    .main_TemItems{
+      height:auto;
+      background-color: transparent;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      .item{
+        width: 90%;
+        box-shadow: none;
+        border-radius: 20px;    
+        background-color:transparent;
+        margin: 0;
+        height: 20%;
+        padding-bottom: 5%;
+        .overlay{
+          display: none;
+        }
+        .overlay_right{
+          display: none;
+        }
+      }
+      .item:hover{
+      background-image: none;
+      }
+    }
+       }
+   .footerTitle{
+    display: none;
+       }
 }

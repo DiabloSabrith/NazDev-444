@@ -20,6 +20,7 @@ $br:20px;
    left: 5px;
   } 
   .wrapper {
+    position: relative;
     width: 90%;
     height: 1000px;
     background-color: rgb(138, 43, 226,0.1);
@@ -30,6 +31,7 @@ $br:20px;
      flex-direction: column;
      gap: 20px;
      .back_btn{
+      visibility: visible;
       position: absolute;
       left: 0;
       top: 0;
@@ -117,10 +119,13 @@ $br:20px;
   width: 100%;
   background-color: transparent;
   height: auto;
-margin-bottom: 50px;
+  margin-bottom: 50px;
   .wrapper{
     width: 100%;
     height:  auto;
+    .back_btn{
+      visibility: hidden;
+    }
     .cursItemBlock{
       width: 100%;
       display: flex;
