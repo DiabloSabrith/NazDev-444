@@ -1116,10 +1116,11 @@ a{
       background-color: transparent;
       .footerItem_Block{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         height: auto;
         .itemFooter{
-          width: 65%;
+          width: 35%;
           display: flex;
           flex-direction: column;
           height:250px;
@@ -1140,7 +1141,7 @@ a{
       }
       .itemFooter_Down{
         animation: none;
-        width: 65%;
+        width: 35%;
         height: 240px;
         display: flex;
         align-items: center;
