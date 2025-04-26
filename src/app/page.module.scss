@@ -800,10 +800,364 @@ a{
   }
 }
 
+/* TODO media  575-767px */
+@media (min-width:576px) and (max-width: 765px) {
+  .container{
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    .footerHowerBlock{
+      display: none;
+   }
+    .header{
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      display: none;
+    }
+    .h1{
+      display: none;
+      position: relative;
+      padding: 20px 20px ;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight:500;
+      &::before{
+       display: none;
+      }
+    }
+    .ul{
+      margin-right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .li{
+      padding-left: 3vw;
+      padding-top: 20px;
+      display: inline;
+      .a{
+      font-size: 4vw;
+      }
+    }
+  }
+  .content {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    justify-content: center;
+    background-color: transparent;
+    margin-top: 0px;
+    .mainBlock {
+      width: 100%;
+      background-color: transparent;
+      height: 120px;
+      border-radius: 0;
+      box-shadow: none;
+      h1 {
+        padding-top: 0px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color:#fff;
+        font-size: 5.8vw;
+        line-height:45px;
+        letter-spacing: 1px;
+      }
+      .ProjetcsBlock {
+        display: none;
+      }
+    }
+    .infoBlock {
+      width: 100%;
+      height: 450px;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .infoBlock_ItemsBlock {
+        width: 100%;
+        height: 80%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+        .Info_Item {
+          width: 100%;
+          height: 85%;
+          background-color: transparent;
+          display: flex;
+          flex-direction: column;
+          border-radius: 20px;
+          p {
+            font-size: 4vw;
+            line-height: 30px;
+          }
+          .devHour_TitleOne {
+            width: 100%;
+            height: 50%;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+          .devHour::before {
+            font-size: 24px;
+            counter-reset: my-counter var(--num);
+            content: counter(my-counter);
+            animation: countOne 15s ease-in-out forwards;
+          }
+          .TheoryHour::before {
+            font-size: 24px;
+            counter-reset: my-counter var(--num);
+            content: counter(my-counter);
+            animation: countOne 15s ease-in-out forwards;
+          }
+          .PractikHour::before {
+            font-size: 24px;
+            counter-reset: my-counter var(--num);
+            content: counter(my-counter);
+            animation: countOne 15s ease-in-out forwards;
+          }
+        }
+      }
+    }
+    .footer{
+      position: relative;
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      gap:50px;
+      background-color: transparent;
+      .footerItem_Block{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        .itemFooter{
+          width: 70%;
+          display: flex;
+          flex-direction: column;
+          height:240px;
+          border:1px solid blueviolet;
+          border-radius: 20px;
+          animation: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p{
+            font-size: 3.6vw;
+            padding-top: 0px;
+          }
+        }
+      }
+      .itemFooter_Down:hover{
+      background-image: none;      
+      }
+      .itemFooter_Down{
+        animation: none;
+        width: 70%;
+        height: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+          font-size: 3.6vw;
+          padding-top: 0px;
+        }
+      }
+      .itemFooter:hover{
+        background-image: none;      
+        }
+    }
+    
+  }
+ }
 
-///TODO
-
-  
+ /* TODO 768px–991px */
+ @media (min-width:766px) and (max-width: 991px) {
+  .container{
+    width: 100%;
+    background-color: transparent;
+    height: auto;
+    .footerHowerBlock{
+      display: none;
+   }
+    .header{
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      display: none;
+    }
+    .h1{
+      display: none;
+      position: relative;
+      padding: 20px 20px ;
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight:500;
+      &::before{
+       display: none;
+      }
+    }
+    .ul{
+      margin-right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .li{
+      padding-left: 3vw;
+      padding-top: 20px;
+      display: inline;
+      .a{
+      font-size: 4vw;
+      }
+    }
+  }
+  .content {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    justify-content: center;
+    background-color: transparent;
+    margin-top: 0px;
+    .mainBlock {
+      width: 100%;
+      background-color: transparent;
+      height: 120px;
+      border-radius: 0;
+      box-shadow: none;
+      h1 {
+        padding-top: 0px;
+        text-transform: uppercase;
+        font-weight: 500;
+        color:#fff;
+        font-size: 5vw;
+        line-height:45px;
+        letter-spacing: 1px;
+      }
+      .ProjetcsBlock {
+        display: none;
+      }
+    }
+    .infoBlock {
+      width: 100%;
+      height: 450px;
+      background-color: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .infoBlock_ItemsBlock {
+        width: 100%;
+        height: 80%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+        .Info_Item {
+          width: 100%;
+          height: 85%;
+          background-color: transparent;
+          display: flex;
+          flex-direction: column;
+          border-radius: 20px;
+          p {
+            font-size: 3.5vw;
+            line-height: 30px;
+          }
+          .devHour_TitleOne {
+            width: 100%;
+            height: 50%;
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+          .devHour::before {
+            font-size: 24px;
+            counter-reset: my-counter var(--num);
+            content: counter(my-counter);
+            animation: countOne 15s ease-in-out forwards;
+          }
+          .TheoryHour::before {
+            font-size: 24px;
+            counter-reset: my-counter var(--num);
+            content: counter(my-counter);
+            animation: countOne 15s ease-in-out forwards;
+          }
+          .PractikHour::before {
+            font-size: 24px;
+            counter-reset: my-counter var(--num);
+            content: counter(my-counter);
+            animation: countOne 15s ease-in-out forwards;
+          }
+        }
+      }
+    }
+    .footer{
+      position: relative;
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      gap:50px;
+      background-color: transparent;
+      .footerItem_Block{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        .itemFooter{
+          width: 65%;
+          display: flex;
+          flex-direction: column;
+          height:250px;
+          border:1px solid blueviolet;
+          border-radius: 20px;
+          animation: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          p{
+            font-size: 3vw;
+            padding-top: 0px;
+          }
+        }
+      }
+      .itemFooter_Down:hover{
+      background-image: none;      
+      }
+      .itemFooter_Down{
+        animation: none;
+        width: 65%;
+        height: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+          font-size: 3vw;
+          padding-top: 0px;
+        }
+      }
+      .itemFooter:hover{
+        background-image: none;      
+        }
+    }
+    
+  }
+ }
+ 
   
   
 

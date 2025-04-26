@@ -147,6 +147,7 @@ export  default function JsPage () {
                     height={30}
                     width={30}
                     alt="Loading..."/>
+                    
              <div className={styles.overlay_right}>
                  <ul>
                      <li>Что такое DOM? </li>
