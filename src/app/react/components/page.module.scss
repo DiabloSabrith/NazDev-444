@@ -21,6 +21,7 @@ $br:20px;
   }
   .wrapper {
     position: relative;
+    visibility: visible;
     width: 90%;
     height: 1000px;
     background-color: rgb(138, 43, 226,0.1);
@@ -126,6 +127,9 @@ $br:20px;
   .wrapper{
     width: 100%;
     height: auto;
+    .back_btn{
+       visibility: hidden;
+    }
     .cursItemBlock{
       width: 100%;
       display: flex;
